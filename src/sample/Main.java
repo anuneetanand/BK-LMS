@@ -15,7 +15,8 @@ import java.io.IOException;
 public class Main extends Application {
     private static Stage stage;
 
-    public static void setRoot_Student() throws IOException {
+    public static void setRoot_Student() throws IOException
+    {
         stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("Student.fxml"))));
         stage.show();
     }
