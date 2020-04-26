@@ -40,6 +40,7 @@ public class Click {
     public void Glow(MouseEvent mouseEvent) {
         if (!SoundCheck) {
             PlaySound();
+            System.out.println("Played");
             SoundCheck = true;
         }
         Glow G = new Glow(0.75);

@@ -1,7 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
-            minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1"
-            fx:controller="sample.ControllerStudent"/>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerStudent">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/StudentBG.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="700.0" layoutY="425.0" onMouseClicked="#RetrieveBooks" onMouseEntered="#Glow" onMouseExited="#RemoveGlow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/BookBuuton.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="English" alignment="CENTER" contentDisplay="TOP" layoutX="100.0" layoutY="190.0" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: black;" text="-" textAlignment="RIGHT" textFill="#ecf2ea" wrapText="true">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Maths" alignment="CENTER" contentDisplay="TOP" layoutX="250.0" layoutY="190.0" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: black;" text="-" textAlignment="RIGHT" textFill="#ecf2ea" wrapText="true">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Science" alignment="CENTER" contentDisplay="TOP" layoutX="400.0" layoutY="190.0" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: black;" text="-" textAlignment="RIGHT" textFill="#ecf2ea" wrapText="true">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Hindi" alignment="CENTER" contentDisplay="TOP" layoutX="550.0" layoutY="190.0" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: black;" text="-" textAlignment="RIGHT" textFill="#ecf2ea" wrapText="true">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="GK" alignment="CENTER" contentDisplay="TOP" layoutX="700.0" layoutY="190.0" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: black;" text="-" textAlignment="RIGHT" textFill="#ecf2ea" wrapText="true">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="100.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/completion.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="250.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/completion-2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="400.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/completion-3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="550.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/completion-4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="700.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/completion-5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="100.0" layoutX="850.0" layoutY="150.0" onMouseClicked="#RetrieveMarks" onMouseEntered="#Glow" onMouseExited="#RemoveGlow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/CheckMarks.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="EF" alignment="CENTER" focusColor="#0a0a0a" layoutX="100.0" layoutY="290.0" prefHeight="30.0" prefWidth="100.0" promptText="1/2/3/4/5" text="Feedback">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="MF" alignment="CENTER" focusColor="#0a0a0a" layoutX="250.0" layoutY="290.0" prefHeight="30.0" prefWidth="100.0" promptText="1/2/3/4/5" text="Feedback">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="SF" alignment="CENTER" focusColor="#0a0a0a" layoutX="400.0" layoutY="290.0" prefHeight="30.0" prefWidth="100.0" promptText="1/2/3/4/5" text="Feedback">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="HF" alignment="CENTER" focusColor="#0a0a0a" layoutX="550.0" layoutY="290.0" prefHeight="30.0" prefWidth="100.0" promptText="1/2/3/4/5" text="Feedback">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="GF" alignment="CENTER" focusColor="#0a0a0a" layoutX="700.0" layoutY="290.0" prefHeight="30.0" prefWidth="100.0" promptText="1/2/3/4/5" text="Feedback">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </JFXTextField>
+      <ImageView fitHeight="50.0" fitWidth="100.0" layoutX="850.0" layoutY="275.0" onMouseClicked="#SubmitFB" onMouseEntered="#Glow" onMouseExited="#RemoveGlow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/Submit.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="100.0" layoutY="440.0" onMouseClicked="#RetrieveAssignment" onMouseEntered="#Glow" onMouseExited="#RemoveGlow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/work.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="Work" alignment="CENTER" layoutX="200.0" layoutY="440.0" prefHeight="200.0" prefWidth="450.0" style="-fx-background-color: #cccac7#cccac7;" text="-" textAlignment="JUSTIFY" textFill="#111110">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Books" alignment="CENTER" layoutX="810.0" layoutY="440.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #cccac7#cccac7;" text="-" textAlignment="JUSTIFY" textFill="#111110">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Details" alignment="CENTER" layoutX="1023.0" layoutY="152.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #cccac7#cccac7 #cccac7#cccac7;" text="-" textAlignment="JUSTIFY" textFill="#111110">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Attendance" alignment="CENTER" contentDisplay="TOP" layoutX="1075.0" layoutY="460.0" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: black;" text="-" textAlignment="RIGHT" textFill="#ecf2ea" wrapText="true">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="150.0" layoutX="1075.0" layoutY="400.0" onMouseClicked="#Check_Attendance" onMouseEntered="#Glow" onMouseExited="#RemoveGlow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/Attendance.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="1100.0" layoutY="599.0" onMouseClicked="#Back" onMouseEntered="#Glow" onMouseExited="#RemoveGlow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/BackButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="LoginID" fitHeight="75.0" fitWidth="75.0" layoutX="1090.0" layoutY="60.0" onMouseClicked="#Info" onMouseEntered="#Glow" onMouseExited="#RemoveGlow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/Student.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

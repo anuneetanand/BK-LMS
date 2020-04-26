@@ -28,6 +28,8 @@ public class Main extends Application
 
     public static void setRoot_About() throws IOException {stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("About.fxml"))));stage.show(); }
 
+    public static void setRoot_Login() throws IOException {stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("Login.fxml"))));stage.show(); }
+
     public static void main(String[] args) { launch(args); }
 
     @Override
