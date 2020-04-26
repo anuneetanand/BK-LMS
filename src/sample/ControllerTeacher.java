@@ -1,5 +1,7 @@
 package sample;
 
+import javafx.scene.input.MouseEvent;
+
 import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -50,5 +52,14 @@ public class ControllerTeacher extends Click {
         } catch (SQLException | IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void Back(MouseEvent mouseEvent) throws IOException
+    {
+        Main.setRoot_Login();
+    }
+
+    public void Info(MouseEvent mouseEvent)
+    {
     }
 }

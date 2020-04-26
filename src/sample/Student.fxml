@@ -137,7 +137,7 @@
             <Image url="@Resources/Attendance.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="1100.0" layoutY="599.0" onMouseClicked="#Back" onMouseEntered="#Glow" onMouseExited="#RemoveGlow" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="1100.0" layoutY="600.0" onMouseClicked="#Back" onMouseEntered="#Glow" onMouseExited="#RemoveGlow" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Resources/BackButton.png" />
          </image>

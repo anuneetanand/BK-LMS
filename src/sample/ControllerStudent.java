@@ -186,6 +186,6 @@ public class ControllerStudent extends Click {
 
     public void Info(MouseEvent mouseEvent)
     {
-        Details.setText(SID+"\n"+Name+"\n Class:"+Class+"\n School:"+School+"\n");
+        Details.setText(SID+"\n"+Name+"\nClass:"+Class+"\nSchool:"+School+"\n");
     }
 }
