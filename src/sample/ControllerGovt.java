@@ -21,6 +21,9 @@ public class ControllerGovt extends Click {
     public JFXTextField Score;
     public Label TR;
     public JFXTextField approveSID;
+    public Label BMI;
+    public Label AvgAttendance;
+    public Label AvgMarks;
 
     public static void Govt(String ID) {
         stmt = null;
@@ -75,6 +78,48 @@ public class ControllerGovt extends Click {
         String sql = "UPDATE School SET Performance = '" + Score.getText() +"' WHERE School = '"+SchoolName+"';";
         System.out.println(sql);
         try { if (stmt != null) {stmt.executeUpdate(sql); } } catch (SQLException e) { e.printStackTrace(); }
+    }
+
+    public void BMI(MouseEvent mouseEvent) throws SQLException
+    {
+        stmt = null;
+        String P = "";
+        try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
+        String sql = "SELECT School, Class, ROUND(AVG(Weight*10000/(Height*Height)),2) AS BMI FROM Student group by Class,School;";
+        System.out.println(sql);
+        try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+        try { if (!rs.next()) { System.out.println("No Record Found"); }
+        else { do { P = P + rs.getString("School") + ":" +rs.getString("Class") +":" + rs.getString("BMI")+"\n"; } while (rs.next()); } }
+        catch (SQLException e) { e.printStackTrace(); }
+        BMI.setText(P);
+    }
+
+    public void AM(MouseEvent mouseEvent) throws SQLException
+    {
+        stmt = null;
+        String P = "";
+        try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
+        String sql = "SELECT School,Class,AVG(Marks) as x from Grades JOIN Student S on Grades.SID = S.SID group by Class, School;";
+        System.out.println(sql);
+        try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+        try { if (!rs.next()) { System.out.println("No Record Found"); }
+        else { do { P = P + rs.getString("School") + ":" +rs.getString("Class") +":"+ rs.getString("x")+"\n"; } while (rs.next()); } }
+        catch (SQLException e) { e.printStackTrace(); }
+        AvgMarks.setText(P);
+    }
+
+    public void AA(MouseEvent mouseEvent) throws SQLException
+    {
+        stmt = null;
+        String P = "";
+        try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
+        String sql = "SELECT School,Class,AVG(A) as x from (SELECT COUNT(Student.SID) AS A,Student.SID,Class,School from Student JOIN Attendance A on Student.SID = A.SID group by Student.SID) as SA group by Class,School;";
+        System.out.println(sql);
+        try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+        try { if (!rs.next()) { System.out.println("No Record Found"); }
+        else { do { P = P + rs.getString("School") + ":" +rs.getString("Class") +":"+ rs.getString("x")+"\n"; } while (rs.next()); } }
+        catch (SQLException e) { e.printStackTrace(); }
+        AvgAttendance.setText(P);
     }
 
     public void Info(MouseEvent mouseEvent)
