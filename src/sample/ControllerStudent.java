@@ -164,7 +164,7 @@ public class ControllerStudent extends Click {
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-        String sql = "SELECT Book from Subject_Details where Class = '"+Class+"';";
+        String sql = "SELECT Book from SubjectInfo where Class = '"+Class+"';";
         System.out.println(sql);
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
         try {

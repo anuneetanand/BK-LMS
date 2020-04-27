@@ -11,7 +11,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class ControllerTeacher extends Click {
+public class ControllerTeacher extends Click
+{
     static String TID, Name, DOB, Sex, Phone, Subject, Qualification, YOS, School, Feedback, Salary, Class;
     static Statement stmt;
     static ResultSet rs;

@@ -17,19 +17,12 @@ public class Main extends Application
     private static Stage stage;
 
     public static void setRoot_Student() throws IOException {stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("Student.fxml"))));stage.show(); }
-
     public static void setRoot_Teacher() throws IOException {stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("Teacher.fxml"))));stage.show(); }
-
     public static void setRoot_Guardian() throws IOException {stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("Guardian.fxml"))));stage.show(); }
-
     public static void setRoot_Admin() throws IOException {stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("Admin.fxml"))));stage.show(); }
-
     public static void setRoot_Govt() throws IOException {stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("Govt.fxml"))));stage.show(); }
-
     public static void setRoot_About() throws IOException {stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("About.fxml"))));stage.show(); }
-
     public static void setRoot_Login() throws IOException {stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("Login.fxml"))));stage.show(); }
-
     public static void main(String[] args) { launch(args); }
 
     @Override
