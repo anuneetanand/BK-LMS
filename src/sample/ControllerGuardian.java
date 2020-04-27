@@ -89,13 +89,9 @@ public class ControllerGuardian extends Click {
         String sql = " SELECT School, RANK() over (order by Performance) AS R from School;";
         System.out.println(sql);
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
-        try { if (!rs.next()) { System.out.println("No Record Found"); } else {
-            do {
-                P = P + rs.getString("School") + ":" + rs.getString("R")+"\n";
-            } while (rs.next());
-            Main.setRoot_Guardian();
-        }
-        } catch (SQLException | IOException e) { e.printStackTrace(); }
+        try { if (!rs.next()) { System.out.println("No Record Found"); }
+        else { do { P = P + rs.getString("School") + ":" + rs.getString("R")+"\n"; } while (rs.next()); } }
+        catch (SQLException e) { e.printStackTrace(); }
         SchoolRank.setText(P);
     }
 
