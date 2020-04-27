@@ -67,9 +67,7 @@ public class ControllerStudent extends Click {
     }
 
     public void Back(MouseEvent mouseEvent) throws IOException
-    {
-        Main.setRoot_Login();
-    }
+    { Main.setRoot_Login(); }
 
     public void Check_Attendance(MouseEvent mouseEvent) throws SQLException
     {
@@ -159,9 +157,7 @@ public class ControllerStudent extends Click {
                     if (rs.getString("Subject").equals("GK")){GK.setText(rs.getString("Marks"));}
                 } while (rs.next());
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        } catch (SQLException e) { e.printStackTrace(); }
     }
 
     public void RetrieveBooks(MouseEvent mouseEvent)
@@ -179,13 +175,9 @@ public class ControllerStudent extends Click {
                 } while (rs.next());
                 Books.setText(P);
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        } catch (SQLException e) { e.printStackTrace(); }
     }
 
     public void Info(MouseEvent mouseEvent)
-    {
-        Details.setText(SID+"\n"+Name+"\nClass:"+Class+"\nSchool:"+School+"\n");
-    }
+    { Details.setText(SID+"\n"+Name+"\nClass:"+Class+"\nSchool:"+School+"\n"); }
 }
