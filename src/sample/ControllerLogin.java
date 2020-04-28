@@ -5,6 +5,8 @@ import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;
 import javafx.scene.input.MouseEvent;
 
+import java.io.IOException;
+
 public class ControllerLogin extends Click
 {
     @FXML
@@ -28,4 +30,7 @@ public class ControllerLogin extends Click
             else { Login.setText("Invalid!");Password.setText("Invalid!"); }
         }
     }
+
+    public void GoHome(MouseEvent mouseEvent) throws IOException
+    { Main.setRoot_Home(); }
 }

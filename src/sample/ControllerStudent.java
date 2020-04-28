@@ -3,13 +3,13 @@ package sample;
 import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.scene.image.ImageView;
-import javafx.scene.input.MouseEvent;
 
 import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+
+import static java.lang.Math.round;
 
 public class ControllerStudent extends Click {
     static String SID, GID, Name, DOB, Sex, Father, Mother, Class, School, DOE, Height, Weight, BloodGroup, ScholarshipStatus, Performance;
@@ -17,7 +17,7 @@ public class ControllerStudent extends Click {
     static ResultSet rs;
     static String sql;
     @FXML
-    public ImageView LoginID;
+
     public Label Attendance;
     public Label Details;
     public Label Books;
@@ -32,6 +32,9 @@ public class ControllerStudent extends Click {
     public JFXTextField SF;
     public JFXTextField MF;
     public JFXTextField EF;
+    public Label Notice;
+    public Label NameBox;
+    public Label SIDBox;
 
     public static void Student(String ID)
     {
@@ -64,10 +67,14 @@ public class ControllerStudent extends Click {
         } catch (SQLException | IOException e) { e.printStackTrace(); }
     }
 
-    public void Info(MouseEvent mouseEvent)
-    { Details.setText(SID+"\n"+Name+"\nClass:"+Class+"\nSchool:"+School+"\n"); }
+    public void Info()
+    {
+        NameBox.setText(Name);
+        SIDBox.setText(SID);
+        Details.setText("Class       : "+Class+"\nSchool     : "+School+"\n"+"Guardian : "+Father);
+    }
 
-    public void CheckAttendance(MouseEvent mouseEvent) throws SQLException
+    public void CheckAttendance() throws SQLException
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -84,11 +91,12 @@ public class ControllerStudent extends Click {
         rs.next();
         int t = Integer.parseInt(rs.getString("Count(DISTINCT DATE)"));
 
-        int a = (n*100)/t;
-        Attendance.setText(a+"%");
+        int a = (int) round((n*100.0)/t);
+        System.out.println(a);
+        Attendance.setText(String.valueOf(a));
     }
 
-    public void RetrieveAssignment(MouseEvent mouseEvent)
+    public void RetrieveAssignment()
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -98,14 +106,14 @@ public class ControllerStudent extends Click {
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
 
         try {
-            String P = " ";
+            String P = "";
             if (!rs.next()) { P = "No Assignments Due :)"; }
-            else { do { P = P + rs.getString("AssignmentID")+" ("+rs.getString("Subject")+") : "+rs.getString("Date")+"\n"; } while (rs.next()); }
+            else { do { P = P + rs.getString("AssignmentID")+"\n[ "+rs.getString("Date")+" ]\n"; } while (rs.next()); }
             Work.setText(P);
         } catch (SQLException e) { e.printStackTrace(); }
     }
 
-    public void SubmitFB(MouseEvent mouseEvent)
+    public void SubmitFB()
     {
         boolean Flag = true;
         if (!((EF.getText().equals("1")) | (EF.getText().equals("2")) | (EF.getText().equals("3")) | (EF.getText().equals("4")) | (EF.getText().equals("5")))) { Flag = false;}
@@ -138,7 +146,7 @@ public class ControllerStudent extends Click {
 
     }}
 
-    public void RetrieveMarks(MouseEvent mouseEvent)
+    public void RetrieveMarks()
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -160,7 +168,7 @@ public class ControllerStudent extends Click {
         } catch (SQLException e) { e.printStackTrace(); }
     }
 
-    public void RetrieveBooks(MouseEvent mouseEvent)
+    public void RetrieveBooks()
     {
         stmt = null;
         String P;
@@ -177,6 +185,29 @@ public class ControllerStudent extends Click {
         } catch (SQLException e) { e.printStackTrace(); }
     }
 
-    public void Back(MouseEvent mouseEvent) throws IOException
+    public void GetNotice()
+    {
+        stmt = null;
+        String P;
+        try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
+
+        sql = "SELECT Info from Notice";
+        System.out.println(sql);
+        try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+
+        try {
+            P = "";
+            if (!rs.next()) { System.out.println("No Records Found"); }
+            else { do { P = P + "- "+rs.getString("Info")+"\n"; } while (rs.next());Notice.setText(P); }
+        } catch (SQLException e) { e.printStackTrace(); }
+    }
+
+    public void Back() throws IOException
     { Main.setRoot_Login(); }
+
+    public void GoHome() throws IOException
+    { Main.setRoot_Home(); }
+
+    public void Refresh() throws SQLException
+    { Info();RetrieveBooks();RetrieveAssignment();CheckAttendance(); RetrieveMarks();GetNotice();}
 }

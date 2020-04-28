@@ -5,28 +5,16 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerLogin">
    <children>
-      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="720.0" fitWidth="1280.0" layoutX="-10.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Resources/LoginBG.png" />
+            <Image url="@Resources/LoginLow.png" />
          </image>
       </ImageView>
-      <JFXTextField fx:id="Login" focusColor="#0a0a09" labelFloat="true" layoutX="515.0" layoutY="300.0" prefHeight="30.0" prefWidth="250.0" promptText="LOGIN ID">
-         <font>
-            <Font name="Arial" size="20.0" />
-         </font>
-      </JFXTextField>
-      <JFXPasswordField fx:id="Password" focusColor="#0a0a09" labelFloat="true" layoutX="515.0" layoutY="375.0" prefHeight="30.0" prefWidth="250.0" promptText="PASSWORD" unFocusColor="#4d4d4d7d">
-         <font>
-            <Font name="Arial" size="20.0" />
-         </font>
-      </JFXPasswordField>
-      <ImageView fx:id="LOGIN" fitHeight="75.0" fitWidth="75.0" layoutX="600.0" layoutY="450.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#Resolve" onMouseExited="#RemoveGlow" onMouseMoved="#Glow" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@Resources/BackButton.png" />
-         </image>
-      </ImageView>
+      <ImageView fx:id="HomeButton" fitHeight="60.0" fitWidth="105.0" layoutX="944.0" layoutY="21.0" onMouseClicked="#GoHome" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="LoginUser" fitHeight="51.0" fitWidth="240.0" layoutX="510.0" layoutY="469.0" onMouseClicked="#Resolve" pickOnBounds="true" preserveRatio="true" />
+      <JFXTextField fx:id="Login" focusColor="#0d0d0d" layoutX="530.0" layoutY="300.0" prefHeight="35.0" prefWidth="200.0" promptText="ID" unFocusColor="#f8f6f6" />
+      <JFXPasswordField fx:id="Password" focusColor="#0d0d0d" layoutX="530.0" layoutY="358.0" prefHeight="35.0" prefWidth="200.0" promptText="Password" unFocusColor="#f8f6f6" />
    </children>
 </AnchorPane>
