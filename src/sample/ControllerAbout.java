@@ -1,4 +1,6 @@
 package sample;
 
-public class ControllerAbout extends Click {
+public class ControllerAbout extends Click
+{
+
 }

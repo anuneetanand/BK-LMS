@@ -132,7 +132,7 @@
             <Font name="Arial Rounded MT Bold" size="20.0" />
          </font>
       </Label>
-      <ImageView fitHeight="50.0" fitWidth="150.0" layoutX="1075.0" layoutY="400.0" onMouseClicked="#Check_Attendance" onMouseEntered="#Glow" onMouseExited="#RemoveGlow" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="50.0" fitWidth="150.0" layoutX="1075.0" layoutY="400.0" onMouseClicked="#CheckAttendance" onMouseEntered="#Glow" onMouseExited="#RemoveGlow" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Resources/Attendance.png" />
          </image>

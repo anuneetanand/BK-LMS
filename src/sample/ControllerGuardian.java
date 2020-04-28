@@ -2,9 +2,9 @@ package sample;
 
 import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 
-import java.awt.*;
 import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -14,6 +14,7 @@ public class ControllerGuardian extends Click {
     static String GID, Name, Phone, Address, Account;
     static Statement stmt;
     static ResultSet rs;
+    static String sql;
 
     @FXML
     public Label Att;
@@ -28,7 +29,7 @@ public class ControllerGuardian extends Click {
     public static void Guardian(String ID) {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-        String sql = "SELECT * FROM Guardian WHERE GID = '" + ID + "';";
+        sql = "SELECT * FROM Guardian WHERE GID = '" + ID + "';";
         System.out.println(sql);
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
         try { if (!rs.next()) { System.out.println("No Record Found"); } else {
@@ -45,19 +46,27 @@ public class ControllerGuardian extends Click {
         } catch (SQLException | IOException e) { e.printStackTrace(); }
     }
 
-    public void Back(MouseEvent mouseEvent) throws IOException
-    { Main.setRoot_Login(); }
-
+    public void Info(MouseEvent mouseEvent)
+    { Details.setText(GID+"\n"+Name+"\n"+ Phone); }
+    
     public void GetAttendance(MouseEvent mouseEvent) throws SQLException
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-        String sql = "SELECT COUNT(*) FROM Attendance JOIN Student S on Attendance.SID = S.SID WHERE S.GID = '" + GID +"';";
+        
+        sql = "SELECT COUNT(*) FROM Attendance JOIN Student S on Attendance.SID = S.SID WHERE S.GID = '" + GID +"';";
         System.out.println(sql);
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
         rs.next();
         int n = Integer.parseInt(rs.getString("Count(*)"));
-        int a = (n*100)/20;
+
+        sql = "select COUNT(DISTINCT Date) from Attendance;";
+        System.out.println(sql);
+        try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+        rs.next();
+        int t = Integer.parseInt(rs.getString("Count(DISTINCT DATE)"));
+
+        int a = (n*100)/t;
         Att.setText(a+"%");
     }
 
@@ -65,9 +74,11 @@ public class ControllerGuardian extends Click {
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-        String sql = "SELECT Scholarship FROM Student WHERE GID = '"+GID+"';";
+
+        sql = "SELECT Scholarship FROM Student WHERE GID = '"+GID+"';";
         System.out.println(sql);
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+
         rs.next();
         SS.setText((rs.getString("Scholarship")));
     }
@@ -76,7 +87,8 @@ public class ControllerGuardian extends Click {
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-        String sql = "UPDATE Student SET Height = '"+Height.getText()+"' AND Weight = '" + Weight.getText() + "' WHERE GID = '"+GID+"';";
+
+        sql = "UPDATE Student SET Height = '"+Height.getText()+"' AND Weight = '" + Weight.getText() + "' WHERE GID = '"+GID+"';";
         System.out.println(sql);
         try { if (stmt != null) { stmt.executeUpdate(sql); } } catch (SQLException e) { e.printStackTrace(); }
     }
@@ -86,9 +98,11 @@ public class ControllerGuardian extends Click {
         stmt = null;
         String P = "";
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-        String sql = " SELECT School, RANK() over (order by Performance) AS R from School;";
+
+        sql = " SELECT School, RANK() over (order by Performance) AS R from School;";
         System.out.println(sql);
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+
         try { if (!rs.next()) { System.out.println("No Record Found"); }
         else { do { P = P + rs.getString("School") + ":" + rs.getString("R")+"\n"; } while (rs.next()); } }
         catch (SQLException e) { e.printStackTrace(); }
@@ -100,13 +114,14 @@ public class ControllerGuardian extends Click {
         stmt = null;
         int x = 0;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-        String sql = "SELECT Marks,Subject from Grades JOIN Exams E on Grades.EID = E.EID WHERE Grades.SID IN (SELECT SID FROM Student WHERE GID = '"+GID+"');";
+
+        sql = "SELECT Marks,Subject from Grades JOIN Exams E on Grades.EID = E.EID WHERE Grades.SID IN (SELECT SID FROM Student WHERE GID = '"+GID+"');";
         System.out.println(sql);
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+
         try {
-            if (!rs.next()) {System.out.println("No Record Found"); } else {
-                do { x = x + Integer.parseInt(rs.getString("Marks")); } while (rs.next());
-            }
+            if (!rs.next()) {System.out.println("No Record Found"); }
+            else { do { x = x + Integer.parseInt(rs.getString("Marks")); } while (rs.next()); }
         } catch (SQLException e) { e.printStackTrace(); }
         x = x / 5;
         OP.setText(x+"%");
@@ -117,16 +132,17 @@ public class ControllerGuardian extends Click {
         stmt = null;
         String P = "";
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-        String sql = "SELECT Quarter,Status from Fee_Details where GID = '" + GID + "';";
+
+        sql = "SELECT Quarter,Status from Fee_Details where GID = '" + GID + "';";
         System.out.println(sql);
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
         try {
-            if (!rs.next()) {System.out.println("No Record Found"); } else
-                { do { P = P + rs.getString("Quarter")+": "+rs.getString("Status"); } while (rs.next()); }
+            if (!rs.next()) {System.out.println("No Record Found"); }
+            else { do { P = P + rs.getString("Quarter")+": "+rs.getString("Status"); } while (rs.next()); }
         } catch (SQLException e) { e.printStackTrace(); }
         Fee.setText(P);
     }
 
-    public void Info(MouseEvent mouseEvent)
-    { Details.setText(GID+"\n"+Name+"\n"+ Phone); }
+    public void Back(MouseEvent mouseEvent) throws IOException
+    { Main.setRoot_Login(); }
 }

@@ -11,10 +11,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class ControllerAdmin extends Click {
+public class ControllerAdmin extends Click
+{
     static String AID, Name, School, Salary;
     static Statement stmt;
     static ResultSet rs;
+    static String sql;
 
     @FXML
     public Label Details;
@@ -44,7 +46,7 @@ public class ControllerAdmin extends Click {
     public static void Admin(String ID) {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-        String sql = "SELECT * FROM Administration WHERE AID = '" + ID + "';";
+        sql = "SELECT * FROM Administration WHERE AID = '" + ID + "';";
         System.out.println(sql);
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
         try { if (!rs.next()) { System.out.println("No Record Found"); } else {
@@ -60,19 +62,22 @@ public class ControllerAdmin extends Click {
         } catch (SQLException | IOException e) { e.printStackTrace(); }
     }
 
-    public void Back(MouseEvent mouseEvent) throws IOException
-    { Main.setRoot_Login(); }
+    public void Info(MouseEvent mouseEvent)
+    { Details.setText(AID+"\n"+Name+"\n"+School);}
 
     public void enrollTeacher(MouseEvent mouseEvent) throws SQLException
     {
         stmt = null;
         int n = 0;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-        String sql = "SELECT COUNT(*) FROM Teacher;";
+
+        sql = "SELECT COUNT(*) FROM Teacher;";
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+
         if (!rs.next()) { System.out.println("No Record Found"); }
         else { do { n = Integer.parseInt(rs.getString("COUNT(*)")); } while (rs.next());}
         n++;
+
         PreparedStatement stm = ConnectDB.DB.prepareStatement("INSERT INTO Teacher values(?,?,?,?,?,?,?,?,?,?,?,?,?)");
         stm.setString(1,"TID0000"+n);
         stm.setString(2,TName.getText());
@@ -95,11 +100,14 @@ public class ControllerAdmin extends Click {
         stmt = null;
         int n = 0;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-        String sql = "SELECT COUNT(*) FROM Student;";
+
+        sql = "SELECT COUNT(*) FROM Student;";
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+
         if (!rs.next()) { System.out.println("No Record Found"); }
         else { do { n = Integer.parseInt(rs.getString("COUNT(*)")); } while (rs.next());}
         n++;
+
         PreparedStatement stm1 = ConnectDB.DB.prepareStatement("INSERT INTO Guardian values(?,?,?,?,?)");
         stm1.setString(1,"GID0000"+n);
         stm1.setString(2,F.getText());
@@ -107,6 +115,7 @@ public class ControllerAdmin extends Click {
         stm1.setString(4,Address.getText());
         stm1.setString(5,Account.getText());
         stm1.executeUpdate();
+
         PreparedStatement stm = ConnectDB.DB.prepareStatement("INSERT INTO Student values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
         stm.setString(1,"SID0000"+n);
         stm.setString(2,SName.getText());
@@ -128,8 +137,10 @@ public class ControllerAdmin extends Click {
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-        String sql = "SELECT S.SID from Fee_Details JOIN Student S on Fee_Details.SID = S.SID WHERE School = '" + School +"' AND Status = 'Due';";
+
+        sql = "SELECT S.SID from Fee_Details JOIN Student S on Fee_Details.SID = S.SID WHERE School = '" + School +"' AND Status = 'Due';";
         System.out.println(sql);
+
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
         String P = "";
         if (!rs.next()) { System.out.println("No Record Found"); }
@@ -141,7 +152,8 @@ public class ControllerAdmin extends Click {
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-        String sql = "UPDATE Fee_Details SET Status = 'Paid' WHERE SID = '" + UpdateStudentFee.getText() + "';";
+
+        sql = "UPDATE Fee_Details SET Status = 'Paid' WHERE SID = '" + UpdateStudentFee.getText() + "';";
         System.out.println(sql);
         try { if (stmt != null) {stmt.executeUpdate(sql); } } catch (SQLException e) { e.printStackTrace(); }
     }
@@ -151,7 +163,8 @@ public class ControllerAdmin extends Click {
         stmt = null;
         String P = "";
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-        String sql = " SELECT School, RANK() over (order by Performance) AS R from School;";
+
+        sql = " SELECT School, RANK() over (order by Performance) AS R from School;";
         System.out.println(sql);
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
         try { if (!rs.next()) { System.out.println("No Record Found"); }
@@ -160,7 +173,7 @@ public class ControllerAdmin extends Click {
         SchoolRank.setText(P);
     }
 
-    public void Info(MouseEvent mouseEvent)
-    { Details.setText(AID+"\n"+Name+"\n"+School);}
+    public void Back(MouseEvent mouseEvent) throws IOException
+    { Main.setRoot_Login(); }
 
 }
