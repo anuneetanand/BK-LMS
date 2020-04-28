@@ -3,7 +3,6 @@ package sample;
 import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.scene.input.MouseEvent;
 
 import java.io.IOException;
 import java.sql.ResultSet;
@@ -47,10 +46,10 @@ public class ControllerGovt extends Click
         } catch (SQLException | IOException e) { e.printStackTrace(); }
     }
 
-    public void Info(MouseEvent mouseEvent)
+    public void Info()
     { Details.setText(GTID+"\n"+Name+"\n"+Department+"\n"+Zone); }
 
-    public void UpdateScholarship(MouseEvent mouseEvent) throws SQLException
+    public void UpdateScholarship() throws SQLException
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -59,7 +58,7 @@ public class ControllerGovt extends Click
         try { if (stmt != null) {stmt.executeUpdate(sql); } } catch (SQLException e) { e.printStackTrace(); }
     }
 
-    public void GetSR(MouseEvent mouseEvent) throws SQLException
+    public void GetSR() throws SQLException
     {
         stmt = null;
         String P = "";
@@ -75,7 +74,7 @@ public class ControllerGovt extends Click
         TR.setText(P);
     }
 
-    public void UpdateScore(MouseEvent mouseEvent) throws SQLException
+    public void UpdateScore() throws SQLException
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -85,7 +84,7 @@ public class ControllerGovt extends Click
         try { if (stmt != null) {stmt.executeUpdate(sql); } } catch (SQLException e) { e.printStackTrace(); }
     }
 
-    public void BMI(MouseEvent mouseEvent) throws SQLException
+    public void BMI() throws SQLException
     {
         stmt = null;
         String P = "";
@@ -101,7 +100,7 @@ public class ControllerGovt extends Click
         BMI.setText(P);
     }
 
-    public void AM(MouseEvent mouseEvent) throws SQLException
+    public void AM() throws SQLException
     {
         stmt = null;
         String P = "";
@@ -117,7 +116,7 @@ public class ControllerGovt extends Click
         AvgMarks.setText(P);
     }
 
-    public void AA(MouseEvent mouseEvent) throws SQLException
+    public void AA() throws SQLException
     {
         stmt = null;
         String P = "";
@@ -133,7 +132,7 @@ public class ControllerGovt extends Click
         AvgAttendance.setText(P);
     }
 
-    public void Back(MouseEvent mouseEvent) throws IOException
+    public void Back() throws IOException
     { Main.setRoot_Login(); }
 
 }

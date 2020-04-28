@@ -1,14 +1,15 @@
 package sample;
 
-import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.scene.input.MouseEvent;
+import javafx.scene.control.TextField;
 
 import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+
+import static java.lang.Math.round;
 
 public class ControllerGuardian extends Click {
     static String GID, Name, Phone, Address, Account;
@@ -17,11 +18,18 @@ public class ControllerGuardian extends Click {
     static String sql;
 
     @FXML
+    public Label NameBox;
+    public Label GIDBox;
+    public Label English;
+    public Label Maths;
+    public Label Science;
+    public Label Hindi;
+    public Label GK;
     public Label Att;
     public Label SS;
     public Label Details;
-    public JFXTextField Height;
-    public JFXTextField Weight;
+    public TextField Height;
+    public TextField Weight;
     public Label SchoolRank;
     public Label OP;
     public Label Fee;
@@ -46,10 +54,14 @@ public class ControllerGuardian extends Click {
         } catch (SQLException | IOException e) { e.printStackTrace(); }
     }
 
-    public void Info(MouseEvent mouseEvent)
-    { Details.setText(GID+"\n"+Name+"\n"+ Phone); }
+    public void Info()
+    {
+        GIDBox.setText(GID);
+        NameBox.setText(Name);
+        Details.setText("Phone   : "+Phone+"\nAddress : "+Address+"\n\nAccount : "+Account);
+    }
     
-    public void GetAttendance(MouseEvent mouseEvent) throws SQLException
+    public void GetAttendance() throws SQLException
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -67,10 +79,10 @@ public class ControllerGuardian extends Click {
         int t = Integer.parseInt(rs.getString("Count(DISTINCT DATE)"));
 
         int a = (n*100)/t;
-        Att.setText(a+"%");
+        Att.setText(String.valueOf(a));
     }
 
-    public void GetSS(MouseEvent mouseEvent) throws SQLException
+    public void GetSS() throws SQLException
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -83,17 +95,17 @@ public class ControllerGuardian extends Click {
         SS.setText((rs.getString("Scholarship")));
     }
 
-    public void UpdateDetails(MouseEvent mouseEvent) throws SQLException
+    public void UpdateDetails()
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
 
-        sql = "UPDATE Student SET Height = '"+Height.getText()+"' AND Weight = '" + Weight.getText() + "' WHERE GID = '"+GID+"';";
+        sql = "UPDATE Student SET Height = '"+Height.getText()+"', Weight = '" + Weight.getText() + "' WHERE GID = '"+GID+"';";
         System.out.println(sql);
         try { if (stmt != null) { stmt.executeUpdate(sql); } } catch (SQLException e) { e.printStackTrace(); }
     }
 
-    public void GetSR(MouseEvent mouseEvent) throws SQLException
+    public void GetSR()
     {
         stmt = null;
         String P = "";
@@ -104,12 +116,12 @@ public class ControllerGuardian extends Click {
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
 
         try { if (!rs.next()) { System.out.println("No Record Found"); }
-        else { do { P = P + rs.getString("School") + ":" + rs.getString("R")+"\n"; } while (rs.next()); } }
+        else { do { P = P + rs.getString("School") + " :  " + rs.getString("R")+"\n"; } while (rs.next()); } }
         catch (SQLException e) { e.printStackTrace(); }
         SchoolRank.setText(P);
     }
 
-    public void GetOP(MouseEvent mouseEvent) throws SQLException
+    public void GetOP()
     {
         stmt = null;
         int x = 0;
@@ -124,10 +136,11 @@ public class ControllerGuardian extends Click {
             else { do { x = x + Integer.parseInt(rs.getString("Marks")); } while (rs.next()); }
         } catch (SQLException e) { e.printStackTrace(); }
         x = x / 5;
-        OP.setText(x+"%");
+        x = round(x);
+        OP.setText(String.valueOf(x));
     }
 
-    public void GetFee(MouseEvent mouseEvent) throws SQLException
+    public void GetFee()
     {
         stmt = null;
         String P = "";
@@ -138,11 +151,39 @@ public class ControllerGuardian extends Click {
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
         try {
             if (!rs.next()) {System.out.println("No Record Found"); }
-            else { do { P = P + rs.getString("Quarter")+": "+rs.getString("Status"); } while (rs.next()); }
+            else { do { P = P + "Quarter "+rs.getString("Quarter")+": "+rs.getString("Status"); } while (rs.next()); }
         } catch (SQLException e) { e.printStackTrace(); }
         Fee.setText(P);
     }
 
-    public void Back(MouseEvent mouseEvent) throws IOException
+    public void RetrieveMarks()
+    {
+        stmt = null;
+        try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
+
+        sql = "SELECT Marks,Subject from Grades JOIN Exams E on Grades.EID = E.EID WHERE Grades.SID IN (SELECT SID FROM Student where GID = '"+GID+"');";
+        System.out.println(sql);
+        try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+
+        try {
+            if (!rs.next()) {System.out.println("No Record Found"); } else {
+                do {
+                    if (rs.getString("Subject").equals("English")){English.setText(rs.getString("Marks"));}
+                    if (rs.getString("Subject").equals("Hindi")){Hindi.setText(rs.getString("Marks"));}
+                    if (rs.getString("Subject").equals("Maths")){Maths.setText(rs.getString("Marks"));}
+                    if (rs.getString("Subject").equals("Science")){Science.setText(rs.getString("Marks"));}
+                    if (rs.getString("Subject").equals("GK")){GK.setText(rs.getString("Marks"));}
+                } while (rs.next());
+            }
+        } catch (SQLException e) { e.printStackTrace(); }
+    }
+
+    public void Back() throws IOException
     { Main.setRoot_Login(); }
+
+    public void GoHome() throws IOException
+    { Main.setRoot_Home(); }
+
+    public void Refresh() throws SQLException
+    { Info(); RetrieveMarks();GetOP();GetAttendance();GetSR();GetSS();GetFee();}
 }

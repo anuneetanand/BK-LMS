@@ -1,9 +1,8 @@
 package sample;
 
-import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.scene.input.MouseEvent;
+import javafx.scene.control.TextField;
 
 import java.io.IOException;
 import java.sql.PreparedStatement;
@@ -19,29 +18,31 @@ public class ControllerAdmin extends Click
     static String sql;
 
     @FXML
+    public Label NameBox;
+    public Label AIDBox;
     public Label Details;
     public Label FeeDue;
-    public JFXTextField UpdateStudentFee;
+    public TextField UpdateStudentFee;
     public Label SchoolRank;
+    public Label Count;
 
-    public JFXTextField SName;
-    public JFXTextField DOB;
-    public JFXTextField Sex;
-    public JFXTextField F;
-    public JFXTextField M;
-    public JFXTextField Class;
-    public JFXTextField Phone;
-    public JFXTextField Address;
-    public JFXTextField Account;
+    public TextField SName;
+    public TextField DOB;
+    public TextField Sex;
+    public TextField F;
+    public TextField M;
+    public TextField Class;
+    public TextField Phone;
+    public TextField Address;
 
-    public JFXTextField TName;
-    public JFXTextField TDOB;
-    public JFXTextField TSex;
-    public JFXTextField Tphone;
-    public JFXTextField Subject;
-    public JFXTextField Qualification;
-    public JFXTextField YOS;
-    public JFXTextField TClass;
+    public TextField TName;
+    public TextField TDOB;
+    public TextField TSex;
+    public TextField Tphone;
+    public TextField Subject;
+    public TextField Qualification;
+    public TextField YOS;
+    public TextField TClass;
 
     public static void Admin(String ID) {
         stmt = null;
@@ -62,10 +63,14 @@ public class ControllerAdmin extends Click
         } catch (SQLException | IOException e) { e.printStackTrace(); }
     }
 
-    public void Info(MouseEvent mouseEvent)
-    { Details.setText(AID+"\n"+Name+"\n"+School);}
+    public void Info()
+    {
+        AIDBox.setText(AID);
+        NameBox.setText(Name);
+        Details.setText(School);
+    }
 
-    public void enrollTeacher(MouseEvent mouseEvent) throws SQLException
+    public void enrollTeacher() throws SQLException
     {
         stmt = null;
         int n = 0;
@@ -95,7 +100,7 @@ public class ControllerAdmin extends Click
         stm.executeUpdate();
     }
 
-    public void enrollStudent(MouseEvent mouseEvent) throws SQLException
+    public void enrollStudent() throws SQLException
     {
         stmt = null;
         int n = 0;
@@ -113,7 +118,7 @@ public class ControllerAdmin extends Click
         stm1.setString(2,F.getText());
         stm1.setString(3,Phone.getText());
         stm1.setString(4,Address.getText());
-        stm1.setString(5,Account.getText());
+        stm1.setString(5,"ACC0000"+n);
         stm1.executeUpdate();
 
         PreparedStatement stm = ConnectDB.DB.prepareStatement("INSERT INTO Student values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
@@ -133,7 +138,7 @@ public class ControllerAdmin extends Click
         stm.executeUpdate();
     }
 
-    public void ChkFee(MouseEvent mouseEvent) throws SQLException
+    public void ChkFee() throws SQLException
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -144,11 +149,11 @@ public class ControllerAdmin extends Click
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
         String P = "";
         if (!rs.next()) { System.out.println("No Record Found"); }
-        else { do { P = P + rs.getString("SID")+", "; } while (rs.next());}
+        else { do { P = P + rs.getString("SID")+"\n"; } while (rs.next());}
         FeeDue.setText(P);
     }
 
-    public void UpdateFee(MouseEvent mouseEvent) throws SQLException
+    public void UpdateFee() throws SQLException
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -158,7 +163,7 @@ public class ControllerAdmin extends Click
         try { if (stmt != null) {stmt.executeUpdate(sql); } } catch (SQLException e) { e.printStackTrace(); }
     }
 
-    public void GetSR(MouseEvent mouseEvent) throws SQLException
+    public void GetSR() throws SQLException
     {
         stmt = null;
         String P = "";
@@ -173,7 +178,26 @@ public class ControllerAdmin extends Click
         SchoolRank.setText(P);
     }
 
-    public void Back(MouseEvent mouseEvent) throws IOException
+    public void GetCount() throws SQLException
+    {
+        stmt = null;
+        String P = "";
+        try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
+
+        sql = " SELECT COUNT(*) FROM Student WHERE School = '"+School+"';";
+        System.out.println(sql);
+        try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+        rs.next();
+        Count.setText(rs.getString("COUNT(*)"));
+    }
+
+    public void Back() throws IOException
     { Main.setRoot_Login(); }
+
+    public void Refresh() throws SQLException
+    { GetSR();ChkFee();Info(); GetCount(); }
+
+    public void GoHome() throws IOException
+    { Main.setRoot_Home();}
 
 }

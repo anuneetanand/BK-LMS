@@ -1,15 +1,16 @@
 package sample;
 
-import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.scene.input.MouseEvent;
+import javafx.scene.control.TextField;
 
 import java.io.IOException;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+
+import static java.lang.Math.round;
 
 public class ControllerTeacher extends Click
 {
@@ -19,14 +20,17 @@ public class ControllerTeacher extends Click
     static String sql;
 
     @FXML
+    public Label NameBox;
+    public Label TIDBox;
     public Label Details;
     public Label FeedbackData;
+    public Label MinMarks;
     public Label AvgMarks;
     public Label MaxMarks;
     public Label Submissions;
     public Label WeakList;
-    public JFXTextField AD;
-    public JFXTextField AI;
+    public TextField AD;
+    public TextField AI;
 
     public static void Teacher(String ID) {
         stmt = null;
@@ -55,10 +59,14 @@ public class ControllerTeacher extends Click
         } catch (SQLException | IOException e) { e.printStackTrace(); }
     }
 
-    public void Info(MouseEvent mouseEvent)
-    { Details.setText(TID+"\n"+Name+"\n"+Subject+"\n"+School); }
+    public void Info()
+    {
+        NameBox.setText(Name);
+        TIDBox.setText(TID);
+        Details.setText("Subject : "+Subject+"\nSchool  : "+School);
+    }
 
-    public void RetrieveFB(MouseEvent mouseEvent) throws SQLException
+    public void RetrieveFB() throws SQLException
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -68,26 +76,28 @@ public class ControllerTeacher extends Click
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
 
         rs.next();
-        float F = Integer.parseInt(rs.getString("Feedback"));
+        double F = Double.parseDouble(rs.getString("Feedback"));
         int n = Integer.parseInt(rs.getString("FBCount"));
-        FeedbackData.setText(F+"\n("+n+"Entries)");
+        FeedbackData.setText("      "+F+"\n("+n+" Entries)");
     }
 
-    public void AnalyseMarks(MouseEvent mouseEvent) throws SQLException
+    public void AnalyseMarks() throws SQLException
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
 
-        sql = "select AVG(Marks), MAX(Marks),COUNT(Marks) from Grades JOIN Exams E on Grades.EID = E.EID WHERE E.Class = '"+Class+"' AND E.Subject = '"+Subject+"' AND Grades.SID in ( SELECT SID FROM Student where School = '"+School+"');";
+        sql = "select AVG(Marks), MAX(Marks),MIN(Marks) from Grades JOIN Exams E on Grades.EID = E.EID WHERE E.Class = '"+Class+"' AND E.Subject = '"+Subject+"' AND Grades.SID in ( SELECT SID FROM Student where School = '"+School+"');";
         System.out.println(sql);
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
 
         rs.next();
-        AvgMarks.setText(rs.getString("AVG(Marks)"));
-        MaxMarks.setText(rs.getString("Max(Marks"));
+        Double x = Double.parseDouble(rs.getString("AVG(Marks)"));
+        AvgMarks.setText(String.valueOf(round(x)));
+        MaxMarks.setText(rs.getString("Max(Marks)"));
+        MinMarks.setText(rs.getString("Min(Marks)"));
     }
 
-    public void CheckSubmissions(MouseEvent mouseEvent) throws SQLException
+    public void CheckSubmissions() throws SQLException
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -97,12 +107,12 @@ public class ControllerTeacher extends Click
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
 
         String P = "";
-        if (!rs.next()) { System.out.println("No Record Found"); }
+        if (!rs.next()) { System.out.println("No Record Found"); P = "None"; }
         else { do { P = P + rs.getString("AssignmentID")+": "+rs.getString("COUNT(*)")+"\n"; } while (rs.next());}
         Submissions.setText(P);
     }
 
-    public void List(MouseEvent mouseEvent) throws SQLException
+    public void List() throws SQLException
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -112,12 +122,12 @@ public class ControllerTeacher extends Click
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
         
         String P = "";
-        if (!rs.next()) { System.out.println("No Record Found"); }
+        if (!rs.next()) { System.out.println("No Record Found"); P = "None";}
         else { do { P = P + rs.getString("Name")+"\n"; } while (rs.next());}
         WeakList.setText(P);
     }
 
-    public void Add(MouseEvent mouseEvent) throws SQLException
+    public void Add() throws SQLException
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -145,6 +155,12 @@ public class ControllerTeacher extends Click
         stm.executeUpdate();
     }
 
-    public void Back(MouseEvent mouseEvent) throws IOException
+    public void Back() throws IOException
     { Main.setRoot_Login(); }
+
+    public void GoHome() throws IOException
+    { Main.setRoot_Home(); }
+    
+    public void Refresh() throws SQLException
+    { Info();RetrieveFB();CheckSubmissions();AnalyseMarks();List(); }
 }

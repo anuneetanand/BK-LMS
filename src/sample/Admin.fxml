@@ -1,13 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.AnchorPane?>
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerAdmin">
    <children>
       <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Resources/AdminLow.png" />
          </image></ImageView>
+      <Label fx:id="AIDBox" alignment="CENTER" layoutX="156.0" layoutY="184.0" prefHeight="30.0" prefWidth="125.0" textFill="WHITE">
+         <font>
+            <Font name="Roboto" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="NameBox" alignment="CENTER" contentDisplay="CENTER" layoutX="23.0" layoutY="127.0" prefHeight="50.0" prefWidth="300.0" textFill="WHITE">
+         <font>
+            <Font name="Roboto" size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="Details" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="19.0" layoutY="240.0" prefHeight="200.0" prefWidth="300.0" textFill="WHITE">
+         <font>
+            <Font name="Roboto" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="51.0" fitWidth="93.0" layoutX="967.0" layoutY="16.0" onMouseClicked="#GoHome" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="51.0" fitWidth="93.0" layoutX="1168.0" layoutY="17.0" onMouseClicked="#Back" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="62.0" fitWidth="92.0" layoutX="800.0" layoutY="13.0" onMouseClicked="#Refresh" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="FeeDue" alignment="CENTER" layoutX="853.0" layoutY="166.0" prefHeight="335.0" prefWidth="157.0" textFill="#656363">
+         <font>
+            <Font name="Roboto" size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="SchoolRank" alignment="CENTER" layoutX="1066.0" layoutY="169.0" prefHeight="335.0" prefWidth="182.0" textFill="#656363">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Count" alignment="CENTER" layoutX="1092.0" layoutY="584.0" prefHeight="88.0" prefWidth="128.0" textFill="#656363">
+         <font>
+            <Font name="Roboto" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="51.0" fitWidth="121.0" layoutX="876.0" layoutY="640.0" onMouseClicked="#UpdateFee" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="51.0" fitWidth="128.0" layoutX="644.0" layoutY="646.0" onMouseClicked="#enrollTeacher" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="51.0" fitWidth="128.0" layoutX="410.0" layoutY="646.0" onMouseClicked="#enrollStudent" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="SName" alignment="CENTER" layoutX="398.0" layoutY="165.0" prefHeight="30.0" prefWidth="150.0" promptText="Name">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="DOB" alignment="CENTER" layoutX="398.0" layoutY="225.0" prefHeight="30.0" prefWidth="150.0" promptText="DOB">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Sex" alignment="CENTER" layoutX="398.0" layoutY="288.0" prefHeight="30.0" prefWidth="150.0" promptText="Sex">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="F" alignment="CENTER" layoutX="398.0" layoutY="350.0" prefHeight="30.0" prefWidth="150.0" promptText="Father's Name">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="M" alignment="CENTER" layoutX="398.0" layoutY="412.0" prefHeight="30.0" prefWidth="150.0" promptText="Mother's Name">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Class" alignment="CENTER" layoutX="398.0" layoutY="473.0" prefHeight="30.0" prefWidth="150.0" promptText="Class">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Phone" alignment="CENTER" layoutX="398.0" layoutY="535.0" prefHeight="30.0" prefWidth="150.0" promptText="Contact">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Address" alignment="CENTER" layoutX="398.0" layoutY="598.0" prefHeight="30.0" prefWidth="150.0" promptText="Address">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="TName" alignment="CENTER" layoutX="635.0" layoutY="165.0" prefHeight="30.0" prefWidth="150.0" promptText="Name">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="TDOB" alignment="CENTER" layoutX="635.0" layoutY="225.0" prefHeight="30.0" prefWidth="150.0" promptText="DOB">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="TSex" alignment="CENTER" layoutX="635.0" layoutY="288.0" prefHeight="30.0" prefWidth="150.0" promptText="Sex">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Subject" alignment="CENTER" layoutX="635.0" layoutY="350.0" prefHeight="30.0" prefWidth="150.0" promptText="Subject">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="TClass" alignment="CENTER" layoutX="635.0" layoutY="412.0" prefHeight="30.0" prefWidth="150.0" promptText="Class">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Qualification" alignment="CENTER" layoutX="635.0" layoutY="473.0" prefHeight="30.0" prefWidth="150.0" promptText="Qualification">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="YOS" alignment="CENTER" layoutX="635.0" layoutY="535.0" prefHeight="30.0" prefWidth="150.0" promptText="Years Of Service">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Tphone" alignment="CENTER" layoutX="635.0" layoutY="597.0" prefHeight="30.0" prefWidth="150.0" promptText="Contact">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="UpdateStudentFee" alignment="CENTER" layoutX="860.0" layoutY="585.0" prefHeight="30.0" prefWidth="150.0" promptText="SID">
+         <font>
+            <Font name="Roboto" size="15.0" />
+         </font>
+      </TextField>
    </children>
 </AnchorPane>
