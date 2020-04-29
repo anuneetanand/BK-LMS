@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class ControllerAdmin extends Click
+public class ControllerAdmin
 {
     static String AID, Name, School, Salary;
     static Statement stmt;
@@ -22,9 +22,9 @@ public class ControllerAdmin extends Click
     public Label AIDBox;
     public Label Details;
     public Label FeeDue;
-    public TextField UpdateStudentFee;
     public Label SchoolRank;
     public Label Count;
+    public TextField UpdateStudentFee;
 
     public TextField SName;
     public TextField DOB;
@@ -64,11 +64,7 @@ public class ControllerAdmin extends Click
     }
 
     public void Info()
-    {
-        AIDBox.setText(AID);
-        NameBox.setText(Name);
-        Details.setText(School);
-    }
+    { AIDBox.setText(AID);NameBox.setText(Name);Details.setText(School); }
 
     public void enrollTeacher() throws SQLException
     {
@@ -123,18 +119,20 @@ public class ControllerAdmin extends Click
 
         PreparedStatement stm = ConnectDB.DB.prepareStatement("INSERT INTO Student values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
         stm.setString(1,"SID0000"+n);
-        stm.setString(2,SName.getText());
-        stm.setString(3,DOB.getText());
-        stm.setString(4,Sex.getText());
-        stm.setString(5,F.getText());
-        stm.setString(6,M.getText());
-        stm.setString(7,Class.getText());
-        stm.setString(8,School);
-        stm.setString(9,"2020-04-30");
-        stm.setString(10,"0");
+        stm.setString(2,"GID0000"+n);
+        stm.setString(3,SName.getText());
+        stm.setString(4,DOB.getText());
+        stm.setString(5,Sex.getText());
+        stm.setString(6,F.getText());
+        stm.setString(7,M.getText());
+        stm.setString(8,Class.getText());
+        stm.setString(9,School);
+        stm.setString(10,"2020-04-30");
         stm.setString(11,"0");
-        stm.setString(12,"-");
-        stm.setString(13,"100");
+        stm.setString(12,"0");
+        stm.setString(13,"-");
+        stm.setString(14,"No");
+        stm.setString(15,"100");
         stm.executeUpdate();
     }
 
@@ -153,7 +151,7 @@ public class ControllerAdmin extends Click
         FeeDue.setText(P);
     }
 
-    public void UpdateFee() throws SQLException
+    public void UpdateFee()
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -163,7 +161,7 @@ public class ControllerAdmin extends Click
         try { if (stmt != null) {stmt.executeUpdate(sql); } } catch (SQLException e) { e.printStackTrace(); }
     }
 
-    public void GetSR() throws SQLException
+    public void GetSR()
     {
         stmt = null;
         String P = "";
@@ -173,7 +171,7 @@ public class ControllerAdmin extends Click
         System.out.println(sql);
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
         try { if (!rs.next()) { System.out.println("No Record Found"); }
-        else { do { P = P + rs.getString("School") + ":" + rs.getString("R")+"\n"; } while (rs.next()); } }
+        else { do { P = P + rs.getString("School") + " : " + rs.getString("R")+"\n"; } while (rs.next()); } }
         catch (SQLException e) { e.printStackTrace(); }
         SchoolRank.setText(P);
     }
@@ -181,7 +179,6 @@ public class ControllerAdmin extends Click
     public void GetCount() throws SQLException
     {
         stmt = null;
-        String P = "";
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
 
         sql = " SELECT COUNT(*) FROM Student WHERE School = '"+School+"';";

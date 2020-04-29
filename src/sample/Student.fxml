@@ -17,7 +17,7 @@
             <Font name="Roboto" size="30.0" />
          </font>
       </Label>
-      <Label fx:id="Work" layoutX="850.0" layoutY="350.0" prefHeight="250.0" prefWidth="150.0" textFill="#656363">
+      <Label fx:id="Work" layoutX="850.0" layoutY="319.0" prefHeight="365.0" prefWidth="150.0" textFill="#656363">
          <font>
             <Font name="Roboto" size="12.0" />
          </font>
@@ -55,7 +55,7 @@
             <Font name="Roboto" size="18.0" />
          </font>
       </Label>
-      <Label fx:id="NameBox" alignment="CENTER" contentDisplay="CENTER" layoutX="126.0" layoutY="130.0" prefHeight="50.0" prefWidth="300.0" textFill="WHITE">
+      <Label fx:id="NameBox" alignment="CENTER" contentDisplay="CENTER" layoutX="125.0" layoutY="130.0" prefHeight="50.0" prefWidth="300.0" textFill="WHITE">
          <font>
             <Font name="Roboto" size="40.0" />
          </font>

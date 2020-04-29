@@ -3,11 +3,10 @@ package sample;
 import com.jfoenix.controls.JFXPasswordField;
 import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;
-import javafx.scene.input.MouseEvent;
 
 import java.io.IOException;
 
-public class ControllerLogin extends Click
+public class ControllerLogin
 {
     @FXML
     private JFXTextField Login;
@@ -15,7 +14,7 @@ public class ControllerLogin extends Click
     private JFXPasswordField Password;
 
     @FXML
-    public void Resolve(MouseEvent mouseEvent)
+    public void Resolve()
     {
         if ((!Password.getText().equals("password")) || (Login.getText().length() != 10))
         { Login.setText(""); Password.setText(""); }
@@ -31,6 +30,6 @@ public class ControllerLogin extends Click
         }
     }
 
-    public void GoHome(MouseEvent mouseEvent) throws IOException
+    public void GoHome() throws IOException
     { Main.setRoot_Home(); }
 }

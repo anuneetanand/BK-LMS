@@ -10,7 +10,7 @@
             <Image url="@Resources/HomeLow.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="Team" fitHeight="50.0" fitWidth="240.0" layoutX="30.0" layoutY="448.0" onMouseClicked="#Team" onMouseEntered="#Glow" onMouseExited="#RemoveGlow" pickOnBounds="true" preserveRatio="true" />
-      <ImageView fx:id="LoginButton" fitHeight="50.0" fitWidth="75.0" layoutX="1174.0" layoutY="19.0" onMouseClicked="#Login" onMouseEntered="#Glow" onMouseExited="#RemoveGlow" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Team" fitHeight="50.0" fitWidth="240.0" layoutX="30.0" layoutY="448.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="LoginButton" fitHeight="50.0" fitWidth="75.0" layoutX="1174.0" layoutY="19.0" onMouseClicked="#Login" pickOnBounds="true" preserveRatio="true" />
    </children>
 </AnchorPane>

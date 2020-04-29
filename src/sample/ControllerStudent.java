@@ -11,7 +11,8 @@ import java.sql.Statement;
 
 import static java.lang.Math.round;
 
-public class ControllerStudent extends Click {
+public class ControllerStudent
+{
     static String SID, GID, Name, DOB, Sex, Father, Mother, Class, School, DOE, Height, Weight, BloodGroup, ScholarshipStatus, Performance;
     static Statement stmt;
     static ResultSet rs;
@@ -27,14 +28,14 @@ public class ControllerStudent extends Click {
     public Label Science;
     public Label Hindi;
     public Label GK;
+    public Label Notice;
+    public Label NameBox;
+    public Label SIDBox;
     public JFXTextField GF;
     public JFXTextField HF;
     public JFXTextField SF;
     public JFXTextField MF;
     public JFXTextField EF;
-    public Label Notice;
-    public Label NameBox;
-    public Label SIDBox;
 
     public static void Student(String ID)
     {
@@ -68,11 +69,7 @@ public class ControllerStudent extends Click {
     }
 
     public void Info()
-    {
-        NameBox.setText(Name);
-        SIDBox.setText(SID);
-        Details.setText("Class       : "+Class+"\nSchool     : "+School+"\n"+"Guardian : "+Father);
-    }
+    { NameBox.setText(Name);SIDBox.setText(SID);Details.setText("Class       : "+Class+"\nSchool     : "+School+"\n"+"Guardian : "+Father); }
 
     public void CheckAttendance() throws SQLException
     {
@@ -108,7 +105,7 @@ public class ControllerStudent extends Click {
         try {
             String P = "";
             if (!rs.next()) { P = "No Assignments Due :)"; }
-            else { do { P = P + rs.getString("AssignmentID")+"\n[ "+rs.getString("Date")+" ]\n"; } while (rs.next()); }
+            else { do { P = P + rs.getString("AssignmentID")+" : "+rs.getString("Date")+" ]\n"; } while (rs.next()); }
             Work.setText(P);
         } catch (SQLException e) { e.printStackTrace(); }
     }

@@ -23,15 +23,15 @@ public class Main extends Application
     public static void setRoot_Admin() throws IOException {stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("Admin.fxml"))));stage.show(); }
     public static void setRoot_Govt() throws IOException {stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("Govt.fxml"))));stage.show(); }
     public static void setRoot_Login() throws IOException {stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("Login.fxml"))));stage.show(); }
+    public static void setRoot_X() throws IOException {stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("PerformX.fxml"))));stage.show(); }
     public static void main(String[] args) { launch(args); }
 
     @Override
-    public void start(Stage primaryStage) throws  IOException
+    public void start(Stage primaryStage) throws Exception
     {
         ConnectDB.SetUpDB();
         stage = primaryStage;
         stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("Home.fxml"))));
-        //stage.setFullScreen(true);
         stage.setResizable(false);
         stage.show();
         stage.addEventHandler(KeyEvent.KEY_RELEASED, (KeyEvent event) -> {if (KeyCode.ESCAPE == event.getCode()) {primaryStage.close();}});

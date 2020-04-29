@@ -1,15 +1,18 @@
 package sample;
 
-import com.jfoenix.controls.JFXTextField;
+
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 
 import java.io.IOException;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class ControllerGovt extends Click 
+
+public class ControllerGovt
 {
     static String GTID, Name, Department, Zone, Salary;
     static Statement stmt;
@@ -17,16 +20,19 @@ public class ControllerGovt extends Click
     static String sql;
 
     @FXML
+    public TextField NoticeInfo;
+    public TextField Audience;
+    public TextField SchoolName;
+    public TextField Score;
+    public TextField approveSID;
+    public Label IDBox;
+    public Label NameBox;
     public Label Details;
-    public JFXTextField SchoolName;
-    public JFXTextField Score;
-    public Label TR;
-    public JFXTextField approveSID;
-    public Label BMI;
-    public Label AvgAttendance;
-    public Label AvgMarks;
+    public Label TopTeachers;
+    public Label Stats;
 
-    public static void Govt(String ID) {
+    public static void Govt(String ID)
+    {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
         sql = "SELECT * FROM Government_Officials WHERE ID = '" + ID + "';";
@@ -47,9 +53,9 @@ public class ControllerGovt extends Click
     }
 
     public void Info()
-    { Details.setText(GTID+"\n"+Name+"\n"+Department+"\n"+Zone); }
+    { IDBox.setText(GTID);NameBox.setText(Name);Details.setText("Zone             : "+Zone+"\nDepartment : "+Department); }
 
-    public void UpdateScholarship() throws SQLException
+    public void UpdateScholarship()
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
@@ -58,81 +64,104 @@ public class ControllerGovt extends Click
         try { if (stmt != null) {stmt.executeUpdate(sql); } } catch (SQLException e) { e.printStackTrace(); }
     }
 
-    public void GetSR() throws SQLException
-    {
-        stmt = null;
-        String P = "";
-        try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
-
-        sql = "SELECT School, AVG(Feedback) as A from Teacher group by School;";
-        System.out.println(sql);
-        try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
-
-        try { if (!rs.next()) { System.out.println("No Record Found"); }
-        else { do { P = P + rs.getString("School") + ":" + rs.getString("A")+"\n"; } while (rs.next()); } }
-        catch (SQLException e) { e.printStackTrace(); }
-        TR.setText(P);
-    }
-
-    public void UpdateScore() throws SQLException
+    public void UpdateScore()
     {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
 
-        sql = "UPDATE School SET Performance = '" + Score.getText() +"' WHERE School = '"+SchoolName+"';";
+        sql = "UPDATE School SET Performance = '" + Score.getText() +"' WHERE School = '"+SchoolName.getText()+"';";
         System.out.println(sql);
         try { if (stmt != null) {stmt.executeUpdate(sql); } } catch (SQLException e) { e.printStackTrace(); }
     }
 
-    public void BMI() throws SQLException
+    public void ChkStats()throws SQLException
     {
         stmt = null;
         String P = "";
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
 
-        sql = "SELECT School, Class, ROUND(AVG(Weight*10000/(Height*Height)),2) AS BMI FROM Student group by Class,School;";
+        sql = "SELECT COUNT(*) FROM School";
         System.out.println(sql);
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
 
-        try { if (!rs.next()) { System.out.println("No Record Found"); }
-        else { do { P = P + rs.getString("School") + ":" +rs.getString("Class") +":" + rs.getString("BMI")+"\n"; } while (rs.next()); } }
-        catch (SQLException e) { e.printStackTrace(); }
-        BMI.setText(P);
+        rs.next();
+        P = P + rs.getString("COUNT(*)") +" Schools\n";
+
+        sql = "SELECT COUNT(*) FROM Student";
+        System.out.println(sql);
+        try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+
+        rs.next();
+        P = P + rs.getString("COUNT(*)") +" Students\n";
+
+        sql = "SELECT COUNT(*) FROM Teacher";
+        System.out.println(sql);
+        try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+
+        rs.next();
+        P = P + rs.getString("COUNT(*)") +" Teachers";
+
+        Stats.setText(P);
     }
 
-    public void AM() throws SQLException
+    public void ChkTeachers()
     {
         stmt = null;
-        String P = "";
+        String P = "Best Teachers\n\n";
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
 
-        sql = "SELECT School,Class,AVG(Marks) as x from Grades JOIN Student S on Grades.SID = S.SID group by Class, School;";
+        sql = "select Name from Teacher where Feedback = 5;";
         System.out.println(sql);
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
 
-        try { if (!rs.next()) { System.out.println("No Record Found"); }
-        else { do { P = P + rs.getString("School") + ":" +rs.getString("Class") +":"+ rs.getString("x")+"\n"; } while (rs.next()); } }
-        catch (SQLException e) { e.printStackTrace(); }
-        AvgMarks.setText(P);
+        try
+        { if (!rs.next()) { System.out.println("No Record Found");P = "None"; }
+        else { do { P = P + rs.getString("Name") + "\n"; } while (rs.next()); }
+        } catch (SQLException e) { e.printStackTrace(); }
+        TopTeachers.setText(P);
     }
 
-    public void AA() throws SQLException
+    public void Issue() throws SQLException
     {
         stmt = null;
-        String P = "";
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
 
-        sql = "SELECT School,Class,AVG(A) as x from (SELECT COUNT(Student.SID) AS A,Student.SID,Class,School from Student JOIN Attendance A on Student.SID = A.SID group by Student.SID) as SA group by Class,School;";
-        System.out.println(sql);
+        sql = "SELECT COUNT(*) FROM Notice;";
         try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
 
-        try { if (!rs.next()) { System.out.println("No Record Found"); }
-        else { do { P = P + rs.getString("School") + ":" +rs.getString("Class") +":"+ rs.getString("x")+"\n"; } while (rs.next()); } }
-        catch (SQLException e) { e.printStackTrace(); }
-        AvgAttendance.setText(P);
+        rs.next();
+        int n = Integer.parseInt(rs.getString("COUNT(*)"));
+        n++;
+
+        sql = "SELECT CURDATE();";
+        try { if (stmt != null) { rs = stmt.executeQuery(sql); } } catch (SQLException e) { e.printStackTrace(); }
+
+        rs.next();
+        String d = rs.getString("CURDATE()");
+
+        String x = "NOTICE000" + n;
+
+        PreparedStatement stm = ConnectDB.DB.prepareStatement("INSERT INTO Notice values(?,?,?,?,?,?,?)");
+        stm.setString(1, x);
+        stm.setString(2, GTID);
+        stm.setString(3, d);
+        stm.setString(4, Zone);
+        stm.setString(5, "Notice");
+        stm.setString(6, Audience.getText());
+        stm.setString(7, NoticeInfo.getText());
+        stm.executeUpdate();
     }
+
+    public void X() throws IOException
+    { Main.setRoot_X(); }
 
     public void Back() throws IOException
     { Main.setRoot_Login(); }
+
+    public void GoHome() throws IOException
+    { Main.setRoot_Home(); }
+
+    public void Refresh() throws SQLException
+    { Info(); ChkStats(); ChkTeachers(); }
 
 }

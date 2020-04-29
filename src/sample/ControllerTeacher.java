@@ -12,7 +12,7 @@ import java.sql.Statement;
 
 import static java.lang.Math.round;
 
-public class ControllerTeacher extends Click
+public class ControllerTeacher
 {
     static String TID, Name, DOB, Sex, Phone, Subject, Qualification, YOS, School, Feedback, Salary, Class;
     static Statement stmt;

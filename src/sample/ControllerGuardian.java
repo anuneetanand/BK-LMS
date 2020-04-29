@@ -1,5 +1,6 @@
 package sample;
 
+
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -11,7 +12,8 @@ import java.sql.Statement;
 
 import static java.lang.Math.round;
 
-public class ControllerGuardian extends Click {
+public class ControllerGuardian
+{
     static String GID, Name, Phone, Address, Account;
     static Statement stmt;
     static ResultSet rs;
@@ -28,13 +30,14 @@ public class ControllerGuardian extends Click {
     public Label Att;
     public Label SS;
     public Label Details;
-    public TextField Height;
-    public TextField Weight;
     public Label SchoolRank;
     public Label OP;
     public Label Fee;
+    public TextField Height;
+    public TextField Weight;
 
-    public static void Guardian(String ID) {
+    public static void Guardian(String ID)
+    {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
         sql = "SELECT * FROM Guardian WHERE GID = '" + ID + "';";
@@ -55,11 +58,7 @@ public class ControllerGuardian extends Click {
     }
 
     public void Info()
-    {
-        GIDBox.setText(GID);
-        NameBox.setText(Name);
-        Details.setText("Phone   : "+Phone+"\nAddress : "+Address+"\n\nAccount : "+Account);
-    }
+    { GIDBox.setText(GID);NameBox.setText(Name);Details.setText("Phone    : "+Phone+"\nAddress : "+Address+"\n\nAccount : "+Account); }
     
     public void GetAttendance() throws SQLException
     {

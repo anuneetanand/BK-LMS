@@ -10,5 +10,14 @@
     <orderEntry type="library" name="lib" level="application" />
     <orderEntry type="library" scope="RUNTIME" name="mysql:mysql-connector-java:8.0.15" level="project" />
     <orderEntry type="library" name="jfoenix-9.0.8" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Library/AutoComplete.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
