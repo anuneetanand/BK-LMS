@@ -1,0 +1,600 @@
+SID0000001,GID0000001,Sampat Patel,2015-03-24,M,Devak Patel,Vandana Patel,1,SKV Rohini,2019-04-01,158,60,B-,No,66
+SID0000002,GID0000002,Prabhakar Singh,2015-05-20,M,Rushil Singh,Shrivalli Singh,1,SKV Rohini,2019-04-01,158,42,A-,No,61
+SID0000003,GID0000003,Tripurasundari Singh,2014-03-17,F,Anu Singh,Kusumanjali Singh,1,SKV Rohini,2019-04-01,151,44,A-,No,84
+SID0000004,GID0000004,Daman Khan,2015-03-20,M,Charu Khan,Vishaya Khan,1,SKV Rohini,2019-04-01,158,53,O-,No,45
+SID0000005,GID0000005,Sevak Raj,2015-02-24,M,Subhan Raj,Maithili Raj,1,SKV Rohini,2019-04-01,151,65,B+,No,56
+SID0000006,GID0000006,Nivritti Ismail,2014-01-21,F,Sandananda Ismail,Kokila Ismail,1,SKV Rohini,2019-04-01,159,80,AB+,No,72
+SID0000007,GID0000007,Karunakar Kumar,2015-03-16,M,Sohan Kumar,Phiroza Kumar,1,SKV Rohini,2019-04-01,158,44,A-,No,43
+SID0000008,GID0000008,Pavalan Ismail,2015-07-13,M,Jyotirdhar Ismail,Mahijuba Ismail,1,SKV Rohini,2019-04-01,154,72,B+,No,62
+SID0000009,GID0000009,Sundari Khan,2014-02-11,F,Sugreev Khan,Putul Khan,1,SKV Rohini,2019-04-01,157,42,O-,No,49
+SID0000010,GID0000010,Daiwik Jain,2015-03-11,M,Subodh Jain,Diti Jain,1,SKV Karala,2019-04-01,154,43,AB-,No,41
+SID0000011,GID0000011,Asgar Jain,2015-03-11,M,Hashmat Jain,Tarana Jain,1,SKV Karala,2019-04-01,155,47,O-,No,62
+SID0000012,GID0000012,Parnashri Raj,2014-02-23,F,Lalitmohan Raj,Anju Raj,1,SKV Karala,2019-04-01,154,49,A-,No,71
+SID0000013,GID0000013,Ulagan Raj,2015-04-30,M,Budhil Raj,Abhirathi Raj,1,SKV Karala,2019-04-01,152,63,B+,No,59
+SID0000014,GID0000014,Natraj Jain,2015-06-28,M,Sulochan Jain,Indrakshi Jain,1,SKV Karala,2019-04-01,158,43,AB-,No,59
+SID0000015,GID0000015,Jayantika Singh,2014-02-16,F,Devdas Singh,Chandratara Singh,1,SKV Karala,2019-04-01,158,59,O+,No,54
+SID0000016,GID0000016,Achintya Singh,2015-05-30,M,Narun Singh,Radhana Singh,1,SKV Karala,2019-04-01,158,56,AB+,No,61
+SID0000017,GID0000017,Jugnu Patel,2015-04-11,M,Nabarun Patel,Kiran Patel,1,SKV Karala,2019-04-01,155,58,O-,No,76
+SID0000018,GID0000018,Yosana Ismail,2014-04-26,F,Basudha Ismail,Gangotri Ismail,1,SKV Karala,2019-04-01,155,77,AB-,No,58
+SID0000019,GID0000019,Prabodh Kumar,2015-09-16,M,Jugnu Kumar,Serena Kumar,1,SKV Karala,2019-04-01,153,58,A-,No,52
+SID0000020,GID0000020,Navroz Ismail,2015-01-14,M,Pratul Ismail,Sukeshi Ismail,1,SKV Begam Pur,2019-04-01,152,58,B-,Yes,48
+SID0000021,GID0000021,Neeharika Jain,2014-06-19,F,Jitendra Jain,Vishaya Jain,1,SKV Begam Pur,2019-04-01,159,51,B-,No,63
+SID0000022,GID0000022,Fadi Patel,2015-09-30,M,Saeed Patel,Triyama Patel,1,SKV Begam Pur,2019-04-01,156,53,AB-,No,44
+SID0000023,GID0000023,Divyesh Raj,2015-07-13,M,Sharadindu Raj,Vedvalli Raj,1,SKV Begam Pur,2019-04-01,153,59,A+,No,44
+SID0000024,GID0000024,Shruti Kumar,2014-01-14,F,Anu Kumar,Charusila Kumar,1,SKV Begam Pur,2019-04-01,156,51,O+,No,83
+SID0000025,GID0000025,Jaswant Patel,2015-05-11,M,Patakin Patel,Ranjini Patel,1,SKV Begam Pur,2019-04-01,157,68,O+,No,68
+SID0000026,GID0000026,Premal Singh,2015-01-29,M,Gulab Singh,Trilochana Singh,1,SKV Begam Pur,2019-04-01,152,75,O+,No,100
+SID0000027,GID0000027,Maithili Khan,2014-09-23,F,Kanishka Khan,Chintana Khan,1,SKV Begam Pur,2019-04-01,157,50,O-,No,81
+SID0000028,GID0000028,Mihir Singh,2015-06-19,M,Brahmabrata Singh,Kadambini Singh,1,SKV Begam Pur,2019-04-01,153,43,B+,No,72
+SID0000029,GID0000029,Talleen Raj,2015-05-27,M,Vishvajit Raj,Chameli Raj,1,SKV Begam Pur,2019-04-01,159,44,AB-,No,74
+SID0000030,GID0000030,Trikaya Patel,2014-07-30,F,Ulagan Patel,Tripurasundari Patel,1,SKV Kanhjawala,2019-04-01,159,75,A-,No,80
+SID0000031,GID0000031,Chanchal Patel,2015-08-27,M,Sacchidananda Patel,Harimanti Patel,1,SKV Kanhjawala,2019-04-01,157,62,O-,No,93
+SID0000032,GID0000032,Sunanda Ismail,2015-09-16,M,Ranjan Ismail,Pradeepta Ismail,1,SKV Kanhjawala,2019-04-01,156,57,B+,No,94
+SID0000033,GID0000033,Omana Raj,2014-05-27,F,Habib Raj,Ruksana Raj,1,SKV Kanhjawala,2019-04-01,156,45,O-,No,54
+SID0000034,GID0000034,Salaman Ismail,2015-08-18,M,Kandarpa Ismail,Vishaya Ismail,1,SKV Kanhjawala,2019-04-01,161,66,B-,No,86
+SID0000035,GID0000035,Mithilesh Jain,2015-04-20,M,Salaman Jain,Ehimaya Jain,1,SKV Kanhjawala,2019-04-01,158,50,O-,No,68
+SID0000036,GID0000036,Aparijita Patel,2014-05-20,F,Vineet Patel,Chitrarekha Patel,1,SKV Kanhjawala,2019-04-01,161,57,O+,No,96
+SID0000037,GID0000037,Viplab Kumar,2015-02-11,M,Shyamsundar Kumar,Karunya Kumar,1,SKV Kanhjawala,2019-04-01,156,72,AB-,No,93
+SID0000038,GID0000038,Balagovind Ismail,2015-05-26,M,Isaivalan Ismail,Kadambini Ismail,1,SKV Kanhjawala,2019-04-01,154,43,A-,No,55
+SID0000039,GID0000039,Sadhvi Patel,2014-07-18,F,Harsh Patel,Sharvani Patel,1,SKV Kanhjawala,2019-04-01,153,64,B+,No,88
+SID0000040,GID0000040,Trailokva Ismail,2015-03-14,M,Mohak Ismail,Udita Ismail,1,SKV Avantika,2019-04-01,160,59,A-,Yes,70
+SID0000041,GID0000041,Trailokva Patel,2015-06-11,M,Mohamad Patel,Vinanti Patel,1,SKV Avantika,2019-04-01,155,47,AB-,No,51
+SID0000042,GID0000042,Shatarupa Raj,2014-01-17,F,Prachetas Raj,Aksithi Raj,1,SKV Avantika,2019-04-01,153,48,B-,No,77
+SID0000043,GID0000043,Samudra Patel,2015-02-27,M,Kamat Patel,Iha Patel,1,SKV Avantika,2019-04-01,157,43,O-,No,56
+SID0000044,GID0000044,Animish Raj,2015-02-27,M,Chandrakanta Raj,Devasree Raj,1,SKV Avantika,2019-04-01,158,66,AB+,No,53
+SID0000045,GID0000045,Agrata Raj,2014-06-24,F,Hiresh Raj,Mahati Raj,1,SKV Avantika,2019-04-01,159,72,A+,No,40
+SID0000046,GID0000046,Chandresh Jain,2015-09-28,M,Gunjan Jain,Arushi Jain,1,SKV Avantika,2019-04-01,157,41,O+,No,81
+SID0000047,GID0000047,Mukul Jain,2015-01-30,M,Mihir Jain,Vyjayanti Jain,1,SKV Avantika,2019-04-01,160,66,AB-,No,43
+SID0000048,GID0000048,Roshan Kumar,2014-08-22,F,Lalitmohan Kumar,Ashwini Kumar,1,SKV Avantika,2019-04-01,160,42,A-,No,96
+SID0000049,GID0000049,Pranav Jain,2015-09-14,M,Ekalinga Jain,Kaushalya Jain,1,SKV Avantika,2019-04-01,156,65,A+,No,84
+SID0000050,GID0000050,Satyasheel Jain,2014-07-14,M,Bhuvan Jain,Trilochana Jain,2,SKV Rohini,2018-04-01,159,49,B+,No,68
+SID0000051,GID0000051,Raksha Ismail,2013-05-12,F,Achintya Ismail,Pradeepta Ismail,2,SKV Rohini,2018-04-01,157,79,O-,No,40
+SID0000052,GID0000052,Vishvajit Jain,2014-02-28,M,Devadatta Jain,Vagdevi Jain,2,SKV Rohini,2018-04-01,162,54,B+,No,97
+SID0000053,GID0000053,Ekalavya Raj,2014-07-29,M,Prem Raj,Hariganga Raj,2,SKV Rohini,2018-04-01,155,57,O+,No,63
+SID0000054,GID0000054,Valli Singh,2013-05-22,F,Karunashankar Singh,Charusila Singh,2,SKV Rohini,2018-04-01,159,45,O-,No,69
+SID0000055,GID0000055,Haresh Jain,2014-05-19,M,Ellu Jain,Puloma Jain,2,SKV Rohini,2018-04-01,154,41,AB-,No,65
+SID0000056,GID0000056,Bhim Singh,2014-07-15,M,Murad Singh,Snehal Singh,2,SKV Rohini,2018-04-01,161,80,O-,No,63
+SID0000057,GID0000057,Samata Singh,2013-09-13,F,Shams Singh,Sarbani Singh,2,SKV Rohini,2018-04-01,158,67,AB+,No,52
+SID0000058,GID0000058,Indeever Khan,2014-05-11,M,Tarit Khan,Valli Khan,2,SKV Rohini,2018-04-01,162,71,O+,No,80
+SID0000059,GID0000059,Pavani Singh,2014-01-30,M,Chiranjeev Singh,Dakshakanya Singh,2,SKV Rohini,2018-04-01,158,67,A+,No,56
+SID0000060,GID0000060,Malina Khan,2013-04-20,F,Jalal Khan,Maniya Khan,2,SKV Karala,2018-04-01,157,72,O+,Yes,67
+SID0000061,GID0000061,Brijesh Jain,2014-03-29,M,Mangesh Jain,Mayil Jain,2,SKV Karala,2018-04-01,155,46,A+,No,75
+SID0000062,GID0000062,Hirendra Jain,2014-08-11,M,Gunaratna Jain,Shyamali Jain,2,SKV Karala,2018-04-01,157,60,A-,No,62
+SID0000063,GID0000063,Jalabala Patel,2013-06-16,F,Kirtikumar Patel,Samit Patel,2,SKV Karala,2018-04-01,156,71,O-,No,88
+SID0000064,GID0000064,Anu Raj,2014-08-29,M,Jugnu Raj,Laksha Raj,2,SKV Karala,2018-04-01,160,69,B+,No,86
+SID0000065,GID0000065,Rishabh Singh,2014-03-22,M,Rizvan Singh,Rachna Singh,2,SKV Karala,2018-04-01,162,51,AB+,No,51
+SID0000066,GID0000066,Devasmitha Khan,2013-03-14,F,Rebanta Khan,Chandrani Khan,2,SKV Karala,2018-04-01,161,59,AB-,No,59
+SID0000067,GID0000067,Ekalinga Raj,2014-01-15,M,Balagovind Raj,Sudeepa Raj,2,SKV Karala,2018-04-01,157,44,A-,No,41
+SID0000068,GID0000068,Girish Jain,2014-08-29,M,Basudha Jain,Susmita Jain,2,SKV Karala,2018-04-01,157,56,O+,No,65
+SID0000069,GID0000069,Ruksana Singh,2013-03-17,F,Subhan Singh,Tarana Singh,2,SKV Karala,2018-04-01,158,61,O+,No,94
+SID0000070,GID0000070,Omswaroop Raj,2014-09-13,M,Ilamurugu Raj,Inayat Raj,2,SKV Begam Pur,2018-04-01,157,75,AB-,No,73
+SID0000071,GID0000071,Jalal Singh,2014-02-27,M,Mohamad Singh,Triyama Singh,2,SKV Begam Pur,2018-04-01,161,47,O-,No,82
+SID0000072,GID0000072,Talikha Ismail,2013-03-12,F,Mekhal Ismail,Manik Ismail,2,SKV Begam Pur,2018-04-01,160,40,O-,No,65
+SID0000073,GID0000073,Bhaumik Singh,2014-04-22,M,Rasbihari Singh,Neelakshi Singh,2,SKV Begam Pur,2018-04-01,155,55,A-,No,70
+SID0000074,GID0000074,Kulik Singh,2014-07-14,M,Sourish Singh,Chhabi Singh,2,SKV Begam Pur,2018-04-01,160,42,O-,No,52
+SID0000075,GID0000075,Lalima Jain,2013-01-24,F,Lakshmidhar Jain,Ekanthika Jain,2,SKV Begam Pur,2018-04-01,158,70,A-,No,85
+SID0000076,GID0000076,Rasul Raj,2014-07-18,M,Pradosh Raj,Jaishree Raj,2,SKV Begam Pur,2018-04-01,161,44,AB+,No,87
+SID0000077,GID0000077,Ibrahim Patel,2014-09-18,M,Saurabh Patel,Rubaina Patel,2,SKV Begam Pur,2018-04-01,160,41,B-,No,83
+SID0000078,GID0000078,Satya Kumar,2013-03-13,F,Ellu Kumar,Omana Kumar,2,SKV Begam Pur,2018-04-01,159,42,B-,No,58
+SID0000079,GID0000079,Balamohan Patel,2014-08-25,M,Pratul Patel,Sundari Patel,2,SKV Begam Pur,2018-04-01,158,50,A+,No,84
+SID0000080,GID0000080,Srijan Patel,2014-05-30,M,Ekalavya Patel,Manik Patel,2,SKV Kanhjawala,2018-04-01,156,67,AB-,Yes,72
+SID0000081,GID0000081,Gayatri Raj,2013-07-27,F,Ajinkya Raj,Abhithi Raj,2,SKV Kanhjawala,2018-04-01,160,68,A-,No,62
+SID0000082,GID0000082,Balwant Raj,2014-01-18,M,Vineet Raj,Shyamalika Raj,2,SKV Kanhjawala,2018-04-01,157,58,B-,No,58
+SID0000083,GID0000083,Yash Jain,2014-06-26,M,Bibhavasu Jain,Nandini Jain,2,SKV Kanhjawala,2018-04-01,159,67,A+,No,97
+SID0000084,GID0000084,Trilochana Jain,2013-06-14,F,Ramavatar Jain,Shama Jain,2,SKV Kanhjawala,2018-04-01,157,65,A-,No,51
+SID0000085,GID0000085,Shankha Raj,2014-08-25,M,Umed Raj,Manda Raj,2,SKV Kanhjawala,2018-04-01,161,45,B+,No,51
+SID0000086,GID0000086,Madangopal Patel,2014-01-24,M,Pramod Patel,Shishirkana Patel,2,SKV Kanhjawala,2018-04-01,164,79,A-,No,49
+SID0000087,GID0000087,Kakali Khan,2013-07-16,F,Pritam Khan,Kokila Khan,2,SKV Kanhjawala,2018-04-01,159,65,B-,No,65
+SID0000088,GID0000088,Balanath Kumar,2014-01-21,M,Hemanga Kumar,Jagriti Kumar,2,SKV Kanhjawala,2018-04-01,162,63,O-,No,66
+SID0000089,GID0000089,Neelmadhav Kumar,2014-08-12,M,Bhagyanandana Kumar,Udita Kumar,2,SKV Kanhjawala,2018-04-01,156,56,B+,No,93
+SID0000090,GID0000090,Harsha Singh,2013-09-12,F,Avanindra Singh,Namita Singh,2,SKV Avantika,2018-04-01,164,49,A+,No,89
+SID0000091,GID0000091,Nithilan Kumar,2014-09-11,M,Mohak Kumar,Poorvi Kumar,2,SKV Avantika,2018-04-01,162,45,O-,No,70
+SID0000092,GID0000092,Gandhar Jain,2014-07-11,M,Aghat Jain,Vedvalli Jain,2,SKV Avantika,2018-04-01,162,69,O+,No,81
+SID0000093,GID0000093,Sukeshi Raj,2013-04-19,F,Hemadri Raj,Hasumati Raj,2,SKV Avantika,2018-04-01,161,50,A-,No,93
+SID0000094,GID0000094,Milind Jain,2014-06-25,M,Aniteja Jain,Devahuti Jain,2,SKV Avantika,2018-04-01,159,72,AB+,No,57
+SID0000095,GID0000095,Abhinava Ismail,2014-07-15,M,Rushil Ismail,Omana Ismail,2,SKV Avantika,2018-04-01,164,52,B-,No,94
+SID0000096,GID0000096,Sonakshi Kumar,2013-03-25,F,Ayyapan Kumar,Devakanya Kumar,2,SKV Avantika,2018-04-01,156,54,AB+,No,47
+SID0000097,GID0000097,Gulab Jain,2014-01-29,M,Salaman Jain,Faria Jain,2,SKV Avantika,2018-04-01,161,59,AB+,No,63
+SID0000098,GID0000098,Anshumat Patel,2014-04-15,M,Basudha Patel,Ishrat Patel,2,SKV Avantika,2018-04-01,163,50,B+,No,48
+SID0000099,GID0000099,Bhuvana Ismail,2013-09-12,F,Indrakanta Ismail,Janani Ismail,2,SKV Avantika,2018-04-01,163,63,AB-,No,47
+SID0000100,GID0000100,Amalendu Raj,2013-01-13,M,Anurag Raj,Kanyana Raj,3,SKV Rohini,2017-04-01,161,48,O-,Yes,57
+SID0000101,GID0000101,Dhananjay Ismail,2013-07-26,M,Vrishin Ismail,Jagriti Ismail,3,SKV Rohini,2017-04-01,164,57,B-,No,93
+SID0000102,GID0000102,Bindiya Singh,2012-06-12,F,Ranjan Singh,Rukma Singh,3,SKV Rohini,2017-04-01,158,57,B-,No,100
+SID0000103,GID0000103,Pranjivan Singh,2013-01-14,M,Shishirkumar Singh,Umrao Singh,3,SKV Rohini,2017-04-01,158,79,A+,No,78
+SID0000104,GID0000104,Arokya Raj,2013-07-25,M,Mangesh Raj,Gunitha Raj,3,SKV Rohini,2017-04-01,165,55,A-,No,88
+SID0000105,GID0000105,Chhabi Kumar,2012-04-13,F,Swami Kumar,Hemanti Kumar,3,SKV Rohini,2017-04-01,161,74,AB+,No,55
+SID0000106,GID0000106,Bindusar Raj,2013-04-26,M,Palaniappan Raj,Pritha Raj,3,SKV Rohini,2017-04-01,158,45,O+,No,95
+SID0000107,GID0000107,Karunashankar Jain,2013-05-22,M,Chandresh Jain,Priyasha Jain,3,SKV Rohini,2017-04-01,157,44,AB-,No,53
+SID0000108,GID0000108,Kundanika Patel,2012-01-15,F,Ellu Patel,Vallari Patel,3,SKV Rohini,2017-04-01,158,58,O+,No,78
+SID0000109,GID0000109,Jatya Kumar,2013-05-21,M,Pradosh Kumar,Hoor Kumar,3,SKV Rohini,2017-04-01,157,51,A+,No,76
+SID0000110,GID0000110,Pradosh Singh,2013-09-12,M,Martanda Singh,Manayi Singh,3,SKV Karala,2017-04-01,163,47,A+,No,61
+SID0000111,GID0000111,Radhana Raj,2012-07-24,F,Pramod Raj,Manjulika Raj,3,SKV Karala,2017-04-01,158,45,O+,No,53
+SID0000112,GID0000112,Bahumanya Khan,2013-03-13,M,Yamajith Khan,Mahati Khan,3,SKV Karala,2017-04-01,161,80,AB+,No,53
+SID0000113,GID0000113,Gurcharan Singh,2013-02-27,M,Ved Singh,Nandini Singh,3,SKV Karala,2017-04-01,158,50,O+,No,78
+SID0000114,GID0000114,Chitramala Singh,2012-07-24,F,Premal Singh,Parnashri Singh,3,SKV Karala,2017-04-01,158,55,AB+,No,58
+SID0000115,GID0000115,Ajinkya Singh,2013-04-23,M,Bindusar Singh,Kajal Singh,3,SKV Karala,2017-04-01,163,59,A-,No,45
+SID0000116,GID0000116,Ranjan Kumar,2013-07-24,M,Navroz Kumar,Elampirai Kumar,3,SKV Karala,2017-04-01,163,51,B-,No,63
+SID0000117,GID0000117,Omana Patel,2012-09-24,F,Pavani Patel,Naganika Patel,3,SKV Karala,2017-04-01,158,46,AB-,No,99
+SID0000118,GID0000118,Hariprasad Patel,2013-06-18,M,Devarsi Patel,Janhavi Patel,3,SKV Karala,2017-04-01,163,65,AB+,No,91
+SID0000119,GID0000119,Mahipal Singh,2013-02-12,M,Milind Singh,Chitrarekha Singh,3,SKV Karala,2017-04-01,166,68,O+,No,47
+SID0000120,GID0000120,Nutan Ismail,2012-08-20,F,Saroj Ismail,Shatarupa Ismail,3,SKV Begam Pur,2017-04-01,166,50,A-,Yes,90
+SID0000121,GID0000121,Gangeya Singh,2013-02-18,M,Japendra Singh,Jayashree Singh,3,SKV Begam Pur,2017-04-01,164,79,O-,No,41
+SID0000122,GID0000122,Isaivalan Singh,2013-09-19,M,Kaviraj Singh,Vari Singh,3,SKV Begam Pur,2017-04-01,160,74,A+,No,74
+SID0000123,GID0000123,Madhumalati Khan,2012-06-19,F,Subodh Khan,Ambalika Khan,3,SKV Begam Pur,2017-04-01,159,76,B-,No,98
+SID0000124,GID0000124,Faraz Jain,2013-05-30,M,Kaviraj Jain,Sashi Jain,3,SKV Begam Pur,2017-04-01,163,53,A-,No,54
+SID0000125,GID0000125,Tapasendra Jain,2013-04-20,M,Arijit Jain,Sandhya Jain,3,SKV Begam Pur,2017-04-01,158,51,O+,No,87
+SID0000126,GID0000126,Suhrita Kumar,2012-08-17,F,Vrishin Kumar,Apsara Kumar,3,SKV Begam Pur,2017-04-01,164,66,O-,No,86
+SID0000127,GID0000127,Sahay Raj,2013-05-25,M,Sayam Raj,Hemanti Raj,3,SKV Begam Pur,2017-04-01,163,71,B-,No,77
+SID0000128,GID0000128,Saeed Ismail,2013-04-21,M,Manibhushan Ismail,Shree Ismail,3,SKV Begam Pur,2017-04-01,160,51,AB+,No,88
+SID0000129,GID0000129,Shamita Kumar,2012-07-12,F,Kirtikumar Kumar,Dilber Kumar,3,SKV Begam Pur,2017-04-01,160,42,B+,No,68
+SID0000130,GID0000130,Shubhankar Khan,2013-01-19,M,Bahumanya Khan,Radhana Khan,3,SKV Kanhjawala,2017-04-01,162,61,AB+,No,96
+SID0000131,GID0000131,Vedanga Raj,2013-04-28,M,Jaimini Raj,Harimanti Raj,3,SKV Kanhjawala,2017-04-01,166,64,A+,No,60
+SID0000132,GID0000132,Ambalika Ismail,2012-06-19,F,Jalindra Ismail,Samika Ismail,3,SKV Kanhjawala,2017-04-01,159,80,O+,No,61
+SID0000133,GID0000133,Chellapan Jain,2013-03-17,M,Elumalai Jain,Arushi Jain,3,SKV Kanhjawala,2017-04-01,161,74,O-,No,59
+SID0000134,GID0000134,Shvetang Khan,2013-05-14,M,Ravi Khan,Neelabja Khan,3,SKV Kanhjawala,2017-04-01,164,67,B-,No,89
+SID0000135,GID0000135,Ramya Patel,2012-04-24,F,Rakesh Patel,Charulata Patel,3,SKV Kanhjawala,2017-04-01,160,75,B+,No,61
+SID0000136,GID0000136,Vedprakash Patel,2013-05-29,M,Chapal Patel,Tejashree Patel,3,SKV Kanhjawala,2017-04-01,159,67,AB+,No,69
+SID0000137,GID0000137,Abhayaprada Singh,2013-05-19,M,Shripati Singh,Jayani Singh,3,SKV Kanhjawala,2017-04-01,166,53,O-,No,74
+SID0000138,GID0000138,Mangai Kumar,2012-02-27,F,Sunanda Kumar,Aishani Kumar,3,SKV Kanhjawala,2017-04-01,159,69,A+,No,43
+SID0000139,GID0000139,Adhipa Patel,2013-06-26,M,Brijesh Patel,Gunitha Patel,3,SKV Kanhjawala,2017-04-01,167,65,A-,No,93
+SID0000140,GID0000140,Kunjabihari Jain,2013-07-23,M,Prithu Jain,Indrakshi Jain,3,SKV Avantika,2017-04-01,165,68,O+,Yes,49
+SID0000141,GID0000141,Sumedha Ismail,2012-05-26,F,Omar Ismail,Grhitha Ismail,3,SKV Avantika,2017-04-01,164,52,B+,No,55
+SID0000142,GID0000142,Kandarpa Khan,2013-02-29,M,Habib Khan,Mahati Khan,3,SKV Avantika,2017-04-01,159,57,B-,No,79
+SID0000143,GID0000143,Jagadayu Khan,2013-06-14,M,Kandarpa Khan,Kadambini Khan,3,SKV Avantika,2017-04-01,163,70,B+,No,61
+SID0000144,GID0000144,Kanyana Singh,2012-05-24,F,Devdas Singh,Valli Singh,3,SKV Avantika,2017-04-01,162,46,B-,No,83
+SID0000145,GID0000145,Hurditya Jain,2013-09-19,M,Uttiya Jain,Chhabi Jain,3,SKV Avantika,2017-04-01,161,61,B+,No,40
+SID0000146,GID0000146,Kriday Kumar,2013-06-21,M,Kartar Kumar,Pusti Kumar,3,SKV Avantika,2017-04-01,163,49,O-,No,58
+SID0000147,GID0000147,Ambalika Khan,2012-04-17,F,Fadi Khan,Sunayana Khan,3,SKV Avantika,2017-04-01,159,48,O+,No,88
+SID0000148,GID0000148,Abhijit Raj,2013-07-11,M,Ashvin Raj,Devasmitha Raj,3,SKV Avantika,2017-04-01,160,79,O-,No,48
+SID0000149,GID0000149,Sutejas Patel,2013-04-18,M,Pinaki Patel,Akhila Patel,3,SKV Avantika,2017-04-01,162,40,A-,No,79
+SID0000150,GID0000150,Avanti Ismail,2011-09-17,F,Gunjan Ismail,Mandakini Ismail,4,SKV Rohini,2016-04-01,166,45,O-,No,88
+SID0000151,GID0000151,Kirtikumar Raj,2012-08-19,M,Pukhraj Raj,Minnoli Raj,4,SKV Rohini,2016-04-01,163,40,B-,No,78
+SID0000152,GID0000152,Faiyaz Khan,2012-08-29,M,Mithilesh Khan,Wamil Khan,4,SKV Rohini,2016-04-01,162,68,B+,No,84
+SID0000153,GID0000153,Ushma Patel,2011-04-11,F,Asit Patel,Pradeepta Patel,4,SKV Rohini,2016-04-01,164,78,O-,No,58
+SID0000154,GID0000154,Bhagyanandana Jain,2012-05-13,M,Daman Jain,Shamita Jain,4,SKV Rohini,2016-04-01,163,65,O+,No,68
+SID0000155,GID0000155,Ganjan Singh,2012-03-17,M,Ramchandra Singh,Janani Singh,4,SKV Rohini,2016-04-01,168,43,AB+,No,51
+SID0000156,GID0000156,Markandeya Ismail,2011-08-12,F,Kabir Ismail,Suranjana Ismail,4,SKV Rohini,2016-04-01,166,50,B-,No,67
+SID0000157,GID0000157,Tarit Khan,2012-08-17,M,Shvetang Khan,Ariktha Khan,4,SKV Rohini,2016-04-01,163,52,AB-,No,60
+SID0000158,GID0000158,Subhan Jain,2012-03-16,M,Gunaratna Jain,Namita Jain,4,SKV Rohini,2016-04-01,166,80,AB-,No,98
+SID0000159,GID0000159,Neelkamal Ismail,2011-06-29,F,Sitakanta Ismail,Rubaina Ismail,4,SKV Rohini,2016-04-01,168,61,A-,No,53
+SID0000160,GID0000160,Brijmohan Raj,2012-09-15,M,Shvetang Raj,Satyarupa Raj,4,SKV Karala,2016-04-01,163,64,B+,Yes,61
+SID0000161,GID0000161,Ekaraj Kumar,2012-09-25,M,Panduranga Kumar,Kanchana Kumar,4,SKV Karala,2016-04-01,168,56,AB-,No,60
+SID0000162,GID0000162,Shabari Jain,2011-04-11,F,Jayashekhar Jain,Ashima Jain,4,SKV Karala,2016-04-01,164,42,B-,No,90
+SID0000163,GID0000163,Akalpa Jain,2012-07-12,M,Rishikesh Jain,Darshini Jain,4,SKV Karala,2016-04-01,165,63,A-,No,68
+SID0000164,GID0000164,Acalapati Raj,2012-06-13,M,Vighnesh Raj,Dakshakanya Raj,4,SKV Karala,2016-04-01,161,52,B+,No,58
+SID0000165,GID0000165,Shishirkana Kumar,2011-06-22,F,Yamajith Kumar,Lavali Kumar,4,SKV Karala,2016-04-01,164,66,O-,No,62
+SID0000166,GID0000166,Senajit Kumar,2012-07-24,M,Bahuleya Kumar,Shrikumari Kumar,4,SKV Karala,2016-04-01,161,70,AB+,No,91
+SID0000167,GID0000167,Trishanku Khan,2012-02-18,M,Daman Khan,Grhalakshmi Khan,4,SKV Karala,2016-04-01,165,66,A+,No,57
+SID0000168,GID0000168,Vatsala Jain,2011-04-30,F,Devanand Jain,Somatra Jain,4,SKV Karala,2016-04-01,167,41,O-,No,60
+SID0000169,GID0000169,Shivshankar Patel,2012-02-11,M,Dhwani Patel,Medhya Patel,4,SKV Karala,2016-04-01,161,62,O+,No,69
+SID0000170,GID0000170,Indrakanta Kumar,2012-06-17,M,Bhim Kumar,Masilmani Kumar,4,SKV Begam Pur,2016-04-01,164,65,AB+,No,50
+SID0000171,GID0000171,Suvarnaprabha Kumar,2011-03-25,F,Vrishin Kumar,Priyasha Kumar,4,SKV Begam Pur,2016-04-01,165,56,O-,No,91
+SID0000172,GID0000172,Varindra Jain,2012-02-15,M,Neelmadhav Jain,Nandini Jain,4,SKV Begam Pur,2016-04-01,164,66,B+,No,82
+SID0000173,GID0000173,Krishnadeva Patel,2012-07-20,M,Rehman Patel,Neha Patel,4,SKV Begam Pur,2016-04-01,168,42,A+,No,57
+SID0000174,GID0000174,Saheli Khan,2011-02-30,F,Deepesh Khan,Lakshmishree Khan,4,SKV Begam Pur,2016-04-01,169,44,A+,No,44
+SID0000175,GID0000175,Madhur Kumar,2012-01-30,M,Devak Kumar,Sanika Kumar,4,SKV Begam Pur,2016-04-01,169,55,O-,No,75
+SID0000176,GID0000176,Iniyavan Kumar,2012-04-25,M,Neelmadhav Kumar,Ramya Kumar,4,SKV Begam Pur,2016-04-01,167,50,B+,No,97
+SID0000177,GID0000177,Rachna Khan,2011-06-25,F,Kandan Khan,Sandhya Khan,4,SKV Begam Pur,2016-04-01,169,63,A+,No,51
+SID0000178,GID0000178,Mahadev Khan,2012-01-12,M,Rasul Khan,Ishrat Khan,4,SKV Begam Pur,2016-04-01,168,79,A+,No,56
+SID0000179,GID0000179,Manibhushan Patel,2012-01-14,M,Sacchidananda Patel,Tamanna Patel,4,SKV Begam Pur,2016-04-01,168,75,AB+,No,81
+SID0000180,GID0000180,Supriti Raj,2011-01-28,F,Palaniappan Raj,Dulari Raj,4,SKV Kanhjawala,2016-04-01,163,68,O+,Yes,77
+SID0000181,GID0000181,Satyankar Ismail,2012-07-14,M,Jagajeet Ismail,Iha Ismail,4,SKV Kanhjawala,2016-04-01,161,71,B-,No,64
+SID0000182,GID0000182,Manuj Raj,2012-05-19,M,Sunanda Raj,Talikha Raj,4,SKV Kanhjawala,2016-04-01,167,56,B-,No,99
+SID0000183,GID0000183,Kalya Singh,2011-02-29,F,Abhayaprada Singh,Gaganadipika Singh,4,SKV Kanhjawala,2016-04-01,165,71,B-,No,73
+SID0000184,GID0000184,Puskara Jain,2012-03-15,M,Abhyudaya Jain,Malaya Jain,4,SKV Kanhjawala,2016-04-01,167,48,O-,No,66
+SID0000185,GID0000185,Kamat Ismail,2012-06-16,M,Sriram Ismail,Udita Ismail,4,SKV Kanhjawala,2016-04-01,164,53,B+,No,77
+SID0000186,GID0000186,Sanika Raj,2011-06-30,F,Krishnadeva Raj,Jayani Raj,4,SKV Kanhjawala,2016-04-01,165,43,O+,No,69
+SID0000187,GID0000187,Dasharathi Jain,2012-09-16,M,Fadi Jain,Kaushalya Jain,4,SKV Kanhjawala,2016-04-01,166,49,B-,No,80
+SID0000188,GID0000188,Harshad Khan,2012-01-13,M,Hakesh Khan,Akuti Khan,4,SKV Kanhjawala,2016-04-01,169,67,B+,No,72
+SID0000189,GID0000189,Nazima Ismail,2011-01-12,F,Subhan Ismail,Siddhi Ismail,4,SKV Kanhjawala,2016-04-01,167,74,B-,No,61
+SID0000190,GID0000190,Nithik Ismail,2012-01-26,M,Nabarun Ismail,Tanaya Ismail,4,SKV Avantika,2016-04-01,163,77,AB+,No,51
+SID0000191,GID0000191,Arjun Khan,2012-02-12,M,Indivar Khan,Trilochana Khan,4,SKV Avantika,2016-04-01,168,52,AB-,No,69
+SID0000192,GID0000192,Chanasya Khan,2011-01-26,F,Mekhal Khan,Mrinalini Khan,4,SKV Avantika,2016-04-01,163,80,AB-,No,87
+SID0000193,GID0000193,Sragvibhushan Ismail,2012-02-15,M,Ashu Ismail,Krishnaa Ismail,4,SKV Avantika,2016-04-01,162,41,B-,No,96
+SID0000194,GID0000194,Janith Singh,2012-03-14,M,Faiyaz Singh,Abhinithi Singh,4,SKV Avantika,2016-04-01,167,66,A-,No,73
+SID0000195,GID0000195,Ankitha Khan,2011-06-17,F,Thayanban Khan,Harimanti Khan,4,SKV Avantika,2016-04-01,163,45,AB-,No,80
+SID0000196,GID0000196,Saroj Kumar,2012-01-17,M,Abhijit Kumar,Manda Kumar,4,SKV Avantika,2016-04-01,169,73,AB-,No,92
+SID0000197,GID0000197,Jayashekhar Singh,2012-03-18,M,Manikandan Singh,Vedika Singh,4,SKV Avantika,2016-04-01,170,73,A-,No,58
+SID0000198,GID0000198,Arati Patel,2011-07-16,F,Sajal Patel,Manda Patel,4,SKV Avantika,2016-04-01,167,73,AB-,No,71
+SID0000199,GID0000199,Nirbhay Khan,2012-06-30,M,Vrishin Khan,Manjubala Khan,4,SKV Avantika,2016-04-01,170,45,AB-,No,62
+SID0000200,GID0000200,Devanand Ismail,2011-08-20,M,Yash Ismail,Pushpita Ismail,5,SKV Rohini,2015-04-01,170,79,A+,Yes,80
+SID0000201,GID0000201,Nidhyana Singh,2010-01-11,F,Shivshankar Singh,Labangalata Singh,5,SKV Rohini,2015-04-01,163,62,B-,No,45
+SID0000202,GID0000202,Shyamsundar Jain,2011-06-26,M,Sacchidananda Jain,Chhaya Jain,5,SKV Rohini,2015-04-01,171,60,O-,No,73
+SID0000203,GID0000203,Dhwani Raj,2011-03-30,M,Aakar Raj,Neelkamal Raj,5,SKV Rohini,2015-04-01,166,40,B+,No,82
+SID0000204,GID0000204,Sweta Jain,2010-05-20,F,Uttiya Jain,Suchira Jain,5,SKV Rohini,2015-04-01,171,53,A-,No,57
+SID0000205,GID0000205,Gulab Kumar,2011-07-12,M,Apparajito Kumar,Jagavi Kumar,5,SKV Rohini,2015-04-01,166,52,O-,No,54
+SID0000206,GID0000206,Hashmat Ismail,2011-09-25,M,Pallav Ismail,Yuthika Ismail,5,SKV Rohini,2015-04-01,168,60,AB+,No,46
+SID0000207,GID0000207,Girika Kumar,2010-05-11,F,Sahay Kumar,Udita Kumar,5,SKV Rohini,2015-04-01,163,54,B-,No,97
+SID0000208,GID0000208,Nilay Kumar,2011-08-30,M,Sulekh Kumar,Purvaja Kumar,5,SKV Rohini,2015-04-01,170,78,O+,No,51
+SID0000209,GID0000209,Omar Patel,2011-07-12,M,Shankha Patel,Ramila Patel,5,SKV Rohini,2015-04-01,164,75,O-,No,86
+SID0000210,GID0000210,Neha Kumar,2010-08-18,F,Khalid Kumar,Sarasvati Kumar,5,SKV Karala,2015-04-01,170,46,AB-,No,58
+SID0000211,GID0000211,Radhakrishna Raj,2011-09-30,M,Baladhi Raj,Hradha Raj,5,SKV Karala,2015-04-01,169,65,O+,No,80
+SID0000212,GID0000212,Jenya Raj,2011-03-28,M,Vedprakash Raj,Hradha Raj,5,SKV Karala,2015-04-01,165,47,O-,No,56
+SID0000213,GID0000213,Apsara Jain,2010-03-27,F,Shantiprakash Jain,Mangai Jain,5,SKV Karala,2015-04-01,166,42,A-,No,60
+SID0000214,GID0000214,Navin Kumar,2011-09-20,M,Ekanath Kumar,Vallika Kumar,5,SKV Karala,2015-04-01,166,71,A+,No,48
+SID0000215,GID0000215,Manas Raj,2011-05-21,M,Phalgun Raj,Anjalika Raj,5,SKV Karala,2015-04-01,170,47,B-,No,69
+SID0000216,GID0000216,Vallika Raj,2010-02-22,F,Jayashekhar Raj,Pradeepta Raj,5,SKV Karala,2015-04-01,168,49,B-,No,51
+SID0000217,GID0000217,Vetrival Jain,2011-01-26,M,Sachet Jain,Vagdevi Jain,5,SKV Karala,2015-04-01,164,69,O-,No,91
+SID0000218,GID0000218,Martanda Singh,2011-06-15,M,Gandhar Singh,Nutan Singh,5,SKV Karala,2015-04-01,167,80,A-,No,50
+SID0000219,GID0000219,Niyati Khan,2010-05-21,F,Rafat Khan,Niyati Khan,5,SKV Karala,2015-04-01,166,73,B+,No,70
+SID0000220,GID0000220,Ekanath Khan,2011-08-25,M,Sitakanta Khan,SivaSankari Khan,5,SKV Begam Pur,2015-04-01,165,72,AB-,Yes,88
+SID0000221,GID0000221,Vishvajit Patel,2011-06-27,M,Chiranjeev Patel,Mahijuba Patel,5,SKV Begam Pur,2015-04-01,171,43,O+,No,46
+SID0000222,GID0000222,Yashoda Kumar,2010-08-24,F,Ekaraj Kumar,Madhavilata Kumar,5,SKV Begam Pur,2015-04-01,168,64,A-,No,71
+SID0000223,GID0000223,Hiranmay Jain,2011-09-18,M,Ekalinga Jain,Meghana Jain,5,SKV Begam Pur,2015-04-01,166,71,AB+,No,95
+SID0000224,GID0000224,Yamajith Singh,2011-03-25,M,Rajanikanta Singh,Gaganadipika Singh,5,SKV Begam Pur,2015-04-01,164,44,A-,No,82
+SID0000225,GID0000225,Phoolwati Raj,2010-03-20,F,Utkarsh Raj,Mudra Raj,5,SKV Begam Pur,2015-04-01,170,75,A-,No,71
+SID0000226,GID0000226,Suvrata Jain,2011-09-20,M,Aakar Jain,Ekantha Jain,5,SKV Begam Pur,2015-04-01,167,71,AB+,No,92
+SID0000227,GID0000227,Jagadish Singh,2011-04-19,M,Shashwat Singh,Jayalalita Singh,5,SKV Begam Pur,2015-04-01,171,49,B+,No,76
+SID0000228,GID0000228,Urvasi Raj,2010-05-18,F,Vipra Raj,Shobhana Raj,5,SKV Begam Pur,2015-04-01,164,49,A+,No,49
+SID0000229,GID0000229,Niral Patel,2011-03-25,M,Divyesh Patel,Divya Patel,5,SKV Begam Pur,2015-04-01,169,42,O+,No,92
+SID0000230,GID0000230,Ashu Kumar,2011-07-29,M,Krishnamurari Kumar,Charusheela Kumar,5,SKV Kanhjawala,2015-04-01,165,64,O-,No,73
+SID0000231,GID0000231,Chandrabali Singh,2010-09-28,F,Sohan Singh,Sudeepa Singh,5,SKV Kanhjawala,2015-04-01,169,49,A-,No,70
+SID0000232,GID0000232,Udayachal Raj,2011-01-12,M,Pradosh Raj,Abhijna Raj,5,SKV Kanhjawala,2015-04-01,166,75,O-,No,40
+SID0000233,GID0000233,Anbu Jain,2011-07-24,M,Rupesh Jain,Girika Jain,5,SKV Kanhjawala,2015-04-01,172,46,A-,No,49
+SID0000234,GID0000234,Pankaja Ismail,2010-02-15,F,Charu Ismail,Kasturi Ismail,5,SKV Kanhjawala,2015-04-01,165,77,AB+,No,52
+SID0000235,GID0000235,Manasi Raj,2011-02-16,M,Musheer Raj,Jayalalita Raj,5,SKV Kanhjawala,2015-04-01,172,64,AB-,No,54
+SID0000236,GID0000236,Ulhas Khan,2011-02-23,M,Ekanath Khan,Nalini Khan,5,SKV Kanhjawala,2015-04-01,165,44,O+,No,95
+SID0000237,GID0000237,Sudarshana Khan,2010-01-23,F,Achintya Khan,Chandrani Khan,5,SKV Kanhjawala,2015-04-01,171,80,AB-,No,45
+SID0000238,GID0000238,Shams Singh,2011-02-16,M,Rashmil Singh,Aparijita Singh,5,SKV Kanhjawala,2015-04-01,172,70,A+,No,42
+SID0000239,GID0000239,Murad Patel,2011-08-15,M,Balagovind Patel,Sudarshana Patel,5,SKV Kanhjawala,2015-04-01,173,59,B+,No,40
+SID0000240,GID0000240,Usri Patel,2010-03-30,F,Milind Patel,Anahita Patel,5,SKV Avantika,2015-04-01,166,50,B+,Yes,59
+SID0000241,GID0000241,Gandharaj Khan,2011-01-14,M,Dharmendra Khan,Inayat Khan,5,SKV Avantika,2015-04-01,172,66,AB+,No,58
+SID0000242,GID0000242,Abhyudaya Khan,2011-05-20,M,Ellu Khan,Iha Khan,5,SKV Avantika,2015-04-01,166,41,A+,No,41
+SID0000243,GID0000243,Mandra Kumar,2010-03-26,F,Kunjabihari Kumar,Omana Kumar,5,SKV Avantika,2015-04-01,167,52,A+,No,57
+SID0000244,GID0000244,Ilavenil Ismail,2011-07-17,M,Premal Ismail,Ujas Ismail,5,SKV Avantika,2015-04-01,167,55,AB-,No,42
+SID0000245,GID0000245,Mangal Patel,2011-08-21,M,Umang Patel,Vanaja Patel,5,SKV Avantika,2015-04-01,168,78,O+,No,47
+SID0000246,GID0000246,Triya Jain,2010-06-12,F,Sahas Jain,Dhanapriya Jain,5,SKV Avantika,2015-04-01,169,40,AB-,No,70
+SID0000247,GID0000247,Sulochan Ismail,2011-06-23,M,Ananda Ismail,Avanti Ismail,5,SKV Avantika,2015-04-01,168,72,B-,No,75
+SID0000248,GID0000248,Mohak Ismail,2011-05-17,M,Manoranjan Ismail,Kalaimagal Ismail,5,SKV Avantika,2015-04-01,169,67,AB+,No,74
+SID0000249,GID0000249,Swati Kumar,2010-03-20,F,Abhijit Kumar,Kaushalya Kumar,5,SKV Avantika,2015-04-01,173,64,AB+,No,63
+SID0000250,GID0000250,Rajdulari Patel,2010-06-28,M,Hakesh Patel,Serena Patel,6,SKV Rohini,2014-04-01,168,68,AB-,No,91
+SID0000251,GID0000251,Prem Raj,2010-09-22,M,Sahay Raj,Jayitri Raj,6,SKV Rohini,2014-04-01,170,60,O-,No,49
+SID0000252,GID0000252,Dalaja Khan,2009-03-24,F,Anurag Khan,Aaarti Khan,6,SKV Rohini,2014-04-01,173,41,AB+,No,52
+SID0000253,GID0000253,Panduranga Singh,2010-04-25,M,Partha Singh,Siddheshwari Singh,6,SKV Rohini,2014-04-01,166,63,AB+,No,65
+SID0000254,GID0000254,Sourish Kumar,2010-01-26,M,Kunjabihari Kumar,Ahladita Kumar,6,SKV Rohini,2014-04-01,172,73,B-,No,60
+SID0000255,GID0000255,Minnoli Jain,2009-04-16,F,Farhat Jain,Geetika Jain,6,SKV Rohini,2014-04-01,166,49,B-,No,55
+SID0000256,GID0000256,Sugreev Khan,2010-06-17,M,Paresh Khan,Maniya Khan,6,SKV Rohini,2014-04-01,170,42,O-,No,59
+SID0000257,GID0000257,Charu Raj,2010-05-29,M,Ayyapan Raj,Ramana Raj,6,SKV Rohini,2014-04-01,169,48,A+,No,84
+SID0000258,GID0000258,Nileen Khan,2009-08-15,F,Panduranga Khan,Aaarti Khan,6,SKV Rohini,2014-04-01,167,44,O+,No,76
+SID0000259,GID0000259,Palaniappan Patel,2010-08-25,M,Dhwani Patel,Rachna Patel,6,SKV Rohini,2014-04-01,167,60,O+,No,44
+SID0000260,GID0000260,Balamohan Ismail,2010-09-28,M,Nikhat Ismail,Arati Ismail,6,SKV Karala,2014-04-01,169,51,O-,Yes,82
+SID0000261,GID0000261,Raakhi Patel,2009-02-11,F,Mukul Patel,Jigya Patel,6,SKV Karala,2014-04-01,166,75,O-,No,51
+SID0000262,GID0000262,Ravi Jain,2010-06-25,M,Ellu Jain,Uthami Jain,6,SKV Karala,2014-04-01,170,60,A+,No,96
+SID0000263,GID0000263,Anuha Kumar,2010-09-18,M,Dharmendu Kumar,Parnik Kumar,6,SKV Karala,2014-04-01,174,78,B+,No,96
+SID0000264,GID0000264,Harinakshi Patel,2009-06-15,F,Aakar Patel,Manana Patel,6,SKV Karala,2014-04-01,171,68,O-,No,78
+SID0000265,GID0000265,Kamlesh Kumar,2010-04-20,M,Swami Kumar,Jyotibala Kumar,6,SKV Karala,2014-04-01,174,53,A+,No,96
+SID0000266,GID0000266,Musheer Raj,2010-04-19,M,Charu Raj,Sudeepa Raj,6,SKV Karala,2014-04-01,174,52,O+,No,81
+SID0000267,GID0000267,Treya Singh,2009-05-26,F,Tanuj Singh,Triya Singh,6,SKV Karala,2014-04-01,173,59,O-,No,42
+SID0000268,GID0000268,Vrishin Ismail,2010-01-24,M,Shashimohan Ismail,Shyamali Ismail,6,SKV Karala,2014-04-01,168,73,O-,No,70
+SID0000269,GID0000269,Jaisal Khan,2010-09-18,M,Chiranjeev Khan,Maina Khan,6,SKV Karala,2014-04-01,173,45,A-,No,66
+SID0000270,GID0000270,Kusumanjali Ismail,2009-04-13,F,Bhupathi Ismail,Kasturi Ismail,6,SKV Begam Pur,2014-04-01,173,62,O+,No,66
+SID0000271,GID0000271,Shubhendu Raj,2010-09-27,M,Milind Raj,Gopika Raj,6,SKV Begam Pur,2014-04-01,171,42,B-,No,54
+SID0000272,GID0000272,Nimai Raj,2010-05-27,M,Jenya Raj,Devika Raj,6,SKV Begam Pur,2014-04-01,169,65,A+,No,95
+SID0000273,GID0000273,Sucharita Kumar,2009-02-14,F,Rishikesh Kumar,Grhitha Kumar,6,SKV Begam Pur,2014-04-01,172,54,A-,No,94
+SID0000274,GID0000274,Priya Singh,2010-07-21,M,Aakar Singh,Roshan Singh,6,SKV Begam Pur,2014-04-01,172,59,O+,No,98
+SID0000275,GID0000275,Umang Singh,2010-06-29,M,Daiwik Singh,Phiroza Singh,6,SKV Begam Pur,2014-04-01,171,55,A+,No,55
+SID0000276,GID0000276,Ramila Khan,2009-07-14,F,Sahay Khan,Chakori Khan,6,SKV Begam Pur,2014-04-01,171,43,A-,No,40
+SID0000277,GID0000277,Manikandan Kumar,2010-08-18,M,Kashiprasad Kumar,Chakrika Kumar,6,SKV Begam Pur,2014-04-01,167,48,A+,No,88
+SID0000278,GID0000278,Ravi Patel,2010-09-17,M,Farhat Patel,Akuti Patel,6,SKV Begam Pur,2014-04-01,168,61,AB-,No,59
+SID0000279,GID0000279,Sudeepta Patel,2009-07-30,F,Kriday Patel,Inayat Patel,6,SKV Begam Pur,2014-04-01,174,54,AB-,No,81
+SID0000280,GID0000280,Vighnesh Kumar,2010-04-17,M,Aghat Kumar,Shreyashi Kumar,6,SKV Kanhjawala,2014-04-01,175,43,A+,Yes,90
+SID0000281,GID0000281,Sacchidananda Patel,2010-06-30,M,Manohar Patel,Triya Patel,6,SKV Kanhjawala,2014-04-01,174,65,AB+,No,40
+SID0000282,GID0000282,Niral Raj,2009-02-29,F,Bhudev Raj,Dalaja Raj,6,SKV Kanhjawala,2014-04-01,169,73,A+,No,74
+SID0000283,GID0000283,Milind Patel,2010-04-11,M,Jairaj Patel,Usri Patel,6,SKV Kanhjawala,2014-04-01,169,53,B-,No,88
+SID0000284,GID0000284,Gyan Singh,2010-03-19,M,Paresh Singh,Sucharita Singh,6,SKV Kanhjawala,2014-04-01,172,52,B-,No,57
+SID0000285,GID0000285,Sunita Singh,2009-06-15,F,Sriram Singh,Nidhyana Singh,6,SKV Kanhjawala,2014-04-01,174,57,O+,No,82
+SID0000286,GID0000286,Bandhul Raj,2010-02-28,M,Jasapal Raj,Tanmaya Raj,6,SKV Kanhjawala,2014-04-01,176,77,A-,No,53
+SID0000287,GID0000287,Subodh Raj,2010-06-13,M,Jagadip Raj,Shabari Raj,6,SKV Kanhjawala,2014-04-01,174,67,B+,No,47
+SID0000288,GID0000288,Kalaimagal Ismail,2009-09-20,F,Ashvin Ismail,Kshithi Ismail,6,SKV Kanhjawala,2014-04-01,169,62,A-,No,91
+SID0000289,GID0000289,Ravikiran Patel,2010-07-28,M,Kandarpa Patel,Vipula Patel,6,SKV Kanhjawala,2014-04-01,170,48,AB-,No,59
+SID0000290,GID0000290,Tanuj Patel,2010-03-25,M,Abhayaprada Patel,Kamadha Patel,6,SKV Avantika,2014-04-01,169,68,A-,No,96
+SID0000291,GID0000291,Tejashree Raj,2009-02-15,F,Pritam Raj,Shivangi Raj,6,SKV Avantika,2014-04-01,175,79,A+,No,95
+SID0000292,GID0000292,Thayanban Jain,2010-01-14,M,Ashu Jain,Odathi Jain,6,SKV Avantika,2014-04-01,176,70,B-,No,82
+SID0000293,GID0000293,Farhat Singh,2010-05-21,M,Sharadindu Singh,Nagina Singh,6,SKV Avantika,2014-04-01,171,48,O+,No,67
+SID0000294,GID0000294,Ujas Patel,2009-05-23,F,Abhirup Patel,Chhabi Patel,6,SKV Avantika,2014-04-01,172,62,AB+,No,100
+SID0000295,GID0000295,Uttiya Singh,2010-09-12,M,Haresh Singh,Hariganga Singh,6,SKV Avantika,2014-04-01,171,73,B-,No,60
+SID0000296,GID0000296,Arivumadhi Jain,2010-08-18,M,Ravi Jain,Kanika Jain,6,SKV Avantika,2014-04-01,171,45,B+,No,96
+SID0000297,GID0000297,Chandana Singh,2009-06-23,F,Kirtikumar Singh,Usri Singh,6,SKV Avantika,2014-04-01,169,61,B-,No,52
+SID0000298,GID0000298,Dhevan Jain,2010-05-12,M,Chandrakanta Jain,Jayani Jain,6,SKV Avantika,2014-04-01,173,64,O-,No,65
+SID0000299,GID0000299,Arijit Patel,2010-05-19,M,Jasapal Patel,Pradeepta Patel,6,SKV Avantika,2014-04-01,171,45,B+,No,75
+SID0000300,GID0000300,Jayashree Kumar,2008-03-22,F,Shvetang Kumar,Sonakshi Kumar,7,SKV Rohini,2013-04-01,169,68,B-,Yes,100
+SID0000301,GID0000301,Shriranga Kumar,2009-04-22,M,Lakshmikanta Kumar,Jenya Kumar,7,SKV Rohini,2013-04-01,171,46,O-,No,98
+SID0000302,GID0000302,Harsh Kumar,2009-03-19,M,Ulagan Kumar,Devahuti Kumar,7,SKV Rohini,2013-04-01,170,58,O-,No,53
+SID0000303,GID0000303,Medhya Ismail,2008-03-28,F,Jogindra Ismail,Sunayana Ismail,7,SKV Rohini,2013-04-01,174,66,O+,No,92
+SID0000304,GID0000304,Ellu Jain,2009-05-28,M,Sitakanta Jain,Supriti Jain,7,SKV Rohini,2013-04-01,170,44,A+,No,72
+SID0000305,GID0000305,Niranjan Patel,2009-03-24,M,Patakin Patel,Varada Patel,7,SKV Rohini,2013-04-01,176,55,A+,No,89
+SID0000306,GID0000306,Shabab Kumar,2008-08-11,F,Rebanta Kumar,Anandini Kumar,7,SKV Rohini,2013-04-01,170,58,O+,No,42
+SID0000307,GID0000307,Iri Kumar,2009-04-18,M,Tapasendra Kumar,Geshna Kumar,7,SKV Rohini,2013-04-01,175,41,O-,No,90
+SID0000308,GID0000308,Murarilal Khan,2009-05-20,M,Kabir Khan,Shama Khan,7,SKV Rohini,2013-04-01,172,79,A+,No,46
+SID0000309,GID0000309,Lakshmishree Patel,2008-07-30,F,Rishikesh Patel,Nileen Patel,7,SKV Rohini,2013-04-01,175,68,B+,No,54
+SID0000310,GID0000310,Rizvan Raj,2009-03-25,M,Jagajeet Raj,Shishirkana Raj,7,SKV Karala,2013-04-01,170,74,A+,No,88
+SID0000311,GID0000311,Ashvin Khan,2009-04-13,M,Acarya Khan,Manjubala Khan,7,SKV Karala,2013-04-01,170,54,B-,No,45
+SID0000312,GID0000312,Jasodhara Raj,2008-02-17,F,Balanath Raj,Abhijna Raj,7,SKV Karala,2013-04-01,176,75,O+,No,44
+SID0000313,GID0000313,Uddhar Jain,2009-05-13,M,Vineet Jain,Devasree Jain,7,SKV Karala,2013-04-01,171,65,B+,No,63
+SID0000314,GID0000314,Ainesh Kumar,2009-08-18,M,Bahuleya Kumar,Chandramukhi Kumar,7,SKV Karala,2013-04-01,175,57,A-,No,58
+SID0000315,GID0000315,Jagriti Khan,2008-01-16,F,Ranjan Khan,Ariktha Khan,7,SKV Karala,2013-04-01,176,61,A-,No,98
+SID0000316,GID0000316,Maniram Khan,2009-07-17,M,Vikranta Khan,Devak Khan,7,SKV Karala,2013-04-01,169,61,A+,No,86
+SID0000317,GID0000317,Chandak Khan,2009-06-27,M,Trailokva Khan,Kalika Khan,7,SKV Karala,2013-04-01,171,59,AB+,No,50
+SID0000318,GID0000318,Premala Jain,2008-06-19,F,Sahay Jain,Shrivalli Jain,7,SKV Karala,2013-04-01,174,67,AB+,No,47
+SID0000319,GID0000319,Bhuvan Raj,2009-09-11,M,Nikhat Raj,Vandana Raj,7,SKV Karala,2013-04-01,172,77,AB-,No,55
+SID0000320,GID0000320,Amalesh Jain,2009-07-12,M,Bibhavasu Jain,Labangalata Jain,7,SKV Begam Pur,2013-04-01,175,54,AB-,Yes,90
+SID0000321,GID0000321,Rachna Raj,2008-03-26,F,Vanajit Raj,Ranjini Raj,7,SKV Begam Pur,2013-04-01,178,46,O-,No,75
+SID0000322,GID0000322,Chintya Ismail,2009-01-27,M,Atul Ismail,Manik Ismail,7,SKV Begam Pur,2013-04-01,172,75,B+,No,59
+SID0000323,GID0000323,Karun Ismail,2009-02-27,M,Haresh Ismail,Kajal Ismail,7,SKV Begam Pur,2013-04-01,172,43,B+,No,56
+SID0000324,GID0000324,Chandramukhi Ismail,2008-01-25,F,Tariq Ismail,Ramya Ismail,7,SKV Begam Pur,2013-04-01,175,51,AB-,No,77
+SID0000325,GID0000325,Amitesh Khan,2009-05-24,M,Sevak Khan,Ushma Khan,7,SKV Begam Pur,2013-04-01,178,41,A-,No,90
+SID0000326,GID0000326,Shashwat Ismail,2009-05-26,M,Ajamil Ismail,Chandramukhi Ismail,7,SKV Begam Pur,2013-04-01,173,76,O+,No,91
+SID0000327,GID0000327,Aishani Khan,2008-03-24,F,Gandharaj Khan,Akuti Khan,7,SKV Begam Pur,2013-04-01,172,52,A-,No,40
+SID0000328,GID0000328,Ramavatar Patel,2009-05-14,M,Navroz Patel,Jalahasini Patel,7,SKV Begam Pur,2013-04-01,171,74,A+,No,98
+SID0000329,GID0000329,Sushobhan Khan,2009-07-17,M,Partha Khan,Jyotibala Khan,7,SKV Begam Pur,2013-04-01,172,43,AB-,No,40
+SID0000330,GID0000330,Atreyi Khan,2008-02-27,F,Bhagyanandana Khan,Sumedha Khan,7,SKV Kanhjawala,2013-04-01,171,49,AB+,No,78
+SID0000331,GID0000331,Yadav Singh,2009-08-21,M,Nithik Singh,Anandi Singh,7,SKV Kanhjawala,2013-04-01,171,78,B+,No,53
+SID0000332,GID0000332,Lakshmikanta Kumar,2009-09-30,M,Swaminath Kumar,Trilochana Kumar,7,SKV Kanhjawala,2013-04-01,173,72,O+,No,59
+SID0000333,GID0000333,Rukma Ismail,2008-09-14,F,Manasi Ismail,Trupti Ismail,7,SKV Kanhjawala,2013-04-01,170,61,O+,No,100
+SID0000334,GID0000334,Devak Raj,2009-08-24,M,Palashkusum Raj,Shabari Raj,7,SKV Kanhjawala,2013-04-01,172,51,A-,No,84
+SID0000335,GID0000335,Sahay Singh,2009-07-13,M,Kamat Singh,Janaki Singh,7,SKV Kanhjawala,2013-04-01,178,63,O-,No,86
+SID0000336,GID0000336,Diti Raj,2008-04-12,F,Partha Raj,Anantya Raj,7,SKV Kanhjawala,2013-04-01,179,59,O+,No,56
+SID0000337,GID0000337,Natesh Patel,2009-09-19,M,Yadav Patel,Abhinithi Patel,7,SKV Kanhjawala,2013-04-01,171,43,B+,No,79
+SID0000338,GID0000338,Pallav Raj,2009-02-13,M,Dasharathi Raj,Hradha Raj,7,SKV Kanhjawala,2013-04-01,171,47,O-,No,68
+SID0000339,GID0000339,Putul Khan,2008-08-20,F,Ulagan Khan,Somatra Khan,7,SKV Kanhjawala,2013-04-01,177,69,A-,No,90
+SID0000340,GID0000340,Mahadev Patel,2009-06-21,M,Jenya Patel,Mandarmalika Patel,7,SKV Avantika,2013-04-01,172,50,AB+,Yes,80
+SID0000341,GID0000341,Khalid Khan,2009-01-20,M,Rushil Khan,Devika Khan,7,SKV Avantika,2013-04-01,173,73,AB-,No,98
+SID0000342,GID0000342,Shyamalika Singh,2008-05-13,F,Partha Singh,Saudamini Singh,7,SKV Avantika,2013-04-01,173,62,B-,No,80
+SID0000343,GID0000343,Bankebihari Singh,2009-08-19,M,Yashodhara Singh,Vandana Singh,7,SKV Avantika,2013-04-01,178,80,O+,No,72
+SID0000344,GID0000344,Kailash Patel,2009-09-29,M,Sampat Patel,Manikuntala Patel,7,SKV Avantika,2013-04-01,171,49,A+,No,89
+SID0000345,GID0000345,Vinanti Kumar,2008-03-20,F,Rishikesh Kumar,Devahuti Kumar,7,SKV Avantika,2013-04-01,176,49,B-,No,97
+SID0000346,GID0000346,Kabir Jain,2009-09-12,M,Pramod Jain,Amani Jain,7,SKV Avantika,2013-04-01,175,75,O+,No,88
+SID0000347,GID0000347,Bhaumik Jain,2009-01-30,M,Trishanku Jain,Gunitha Jain,7,SKV Avantika,2013-04-01,173,72,O-,No,51
+SID0000348,GID0000348,Ishrat Kumar,2008-01-15,F,Shashwat Kumar,Ruchira Kumar,7,SKV Avantika,2013-04-01,178,63,O-,No,77
+SID0000349,GID0000349,Rashmil Raj,2009-05-12,M,Indushekhar Raj,Ankitha Raj,7,SKV Avantika,2013-04-01,178,56,AB+,No,62
+SID0000350,GID0000350,Faisal Raj,2008-05-15,M,Dalbhya Raj,Umrao Raj,8,SKV Rohini,2012-04-01,177,48,O-,No,83
+SID0000351,GID0000351,Jayani Jain,2007-06-20,F,Hakesh Jain,Trikaya Jain,8,SKV Rohini,2012-04-01,178,59,O-,No,64
+SID0000352,GID0000352,Ranjan Khan,2008-08-26,M,Sourish Khan,Vallari Khan,8,SKV Rohini,2012-04-01,179,79,B-,No,86
+SID0000353,GID0000353,Champak Kumar,2008-06-19,M,Bhim Kumar,Phoolwati Kumar,8,SKV Rohini,2012-04-01,175,49,AB-,No,97
+SID0000354,GID0000354,Wamika Khan,2007-09-20,F,Budhil Khan,Roshan Khan,8,SKV Rohini,2012-04-01,172,45,B-,No,69
+SID0000355,GID0000355,Yamajith Raj,2008-07-23,M,Sharan Raj,Sukeshi Raj,8,SKV Rohini,2012-04-01,172,55,A+,No,49
+SID0000356,GID0000356,Jusal Raj,2008-02-28,M,Anurag Raj,Kamadha Raj,8,SKV Rohini,2012-04-01,172,42,AB+,No,40
+SID0000357,GID0000357,Sunandita Raj,2007-09-11,F,Etash Raj,Chandratara Raj,8,SKV Rohini,2012-04-01,180,54,B-,No,73
+SID0000358,GID0000358,Kartar Raj,2008-03-19,M,Asit Raj,Suchira Raj,8,SKV Rohini,2012-04-01,176,71,AB-,No,84
+SID0000359,GID0000359,Dheer Kumar,2008-07-12,M,Purnanada Kumar,Elampirai Kumar,8,SKV Rohini,2012-04-01,172,66,AB+,No,41
+SID0000360,GID0000360,Chandrani Patel,2007-04-22,F,Sahay Patel,Poorvi Patel,8,SKV Karala,2012-04-01,175,54,B+,Yes,95
+SID0000361,GID0000361,Dharmesh Raj,2008-07-27,M,Devarsi Raj,Ananya Raj,8,SKV Karala,2012-04-01,174,42,A-,No,75
+SID0000362,GID0000362,Manoranjan Singh,2008-09-27,M,Satyasheel Singh,Meghana Singh,8,SKV Karala,2012-04-01,180,54,A-,No,98
+SID0000363,GID0000363,Pradeepta Singh,2007-03-25,F,Aakar Singh,Nisha Singh,8,SKV Karala,2012-04-01,174,52,AB+,No,41
+SID0000364,GID0000364,Mahaj Kumar,2008-03-13,M,Akalpa Kumar,Angana Kumar,8,SKV Karala,2012-04-01,174,51,AB-,No,50
+SID0000365,GID0000365,Satindra Raj,2008-02-13,M,Ranjan Raj,Sudarshana Raj,8,SKV Karala,2012-04-01,173,73,A+,No,55
+SID0000366,GID0000366,Pritilata Patel,2007-08-20,F,Fadi Patel,Anahita Patel,8,SKV Karala,2012-04-01,175,42,O+,No,48
+SID0000367,GID0000367,Tapasendra Patel,2008-07-16,M,Haresh Patel,Hiranmayi Patel,8,SKV Karala,2012-04-01,181,43,A-,No,81
+SID0000368,GID0000368,Lakshmidhar Khan,2008-07-20,M,Satrijit Khan,Mayil Khan,8,SKV Karala,2012-04-01,177,40,B+,No,44
+SID0000369,GID0000369,Meghana Raj,2007-01-22,F,Dhananjay Raj,Gaurika Raj,8,SKV Karala,2012-04-01,177,79,A+,No,92
+SID0000370,GID0000370,Indukanta Patel,2008-06-29,M,Faisal Patel,Pusti Patel,8,SKV Begam Pur,2012-04-01,174,45,B+,No,59
+SID0000371,GID0000371,Gunjan Singh,2008-07-21,M,Niral Singh,Mandra Singh,8,SKV Begam Pur,2012-04-01,179,67,AB-,No,91
+SID0000372,GID0000372,Ushma Kumar,2007-05-13,F,Chellapan Kumar,Suravinda Kumar,8,SKV Begam Pur,2012-04-01,179,56,AB-,No,53
+SID0000373,GID0000373,Krishnamurari Khan,2008-05-26,M,Jagadip Khan,Bhuvana Khan,8,SKV Begam Pur,2012-04-01,178,58,B-,No,78
+SID0000374,GID0000374,Swaminath Jain,2008-06-14,M,Anuha Jain,Agrata Jain,8,SKV Begam Pur,2012-04-01,180,70,AB+,No,42
+SID0000375,GID0000375,Inayat Singh,2007-03-29,F,Sumit Singh,Sudarshana Singh,8,SKV Begam Pur,2012-04-01,175,63,B-,No,83
+SID0000376,GID0000376,Nand Khan,2008-07-22,M,Divyendu Khan,Odathi Khan,8,SKV Begam Pur,2012-04-01,181,66,A-,No,56
+SID0000377,GID0000377,Sabhya Khan,2008-09-11,M,Chiranjeev Khan,Gayatri Khan,8,SKV Begam Pur,2012-04-01,180,71,AB+,No,47
+SID0000378,GID0000378,Masilmani Ismail,2007-01-15,F,Nithilan Ismail,Ushma Ismail,8,SKV Begam Pur,2012-04-01,181,75,B-,No,44
+SID0000379,GID0000379,Nirav Raj,2008-04-21,M,Sacchidananda Raj,Mayil Raj,8,SKV Begam Pur,2012-04-01,174,49,O-,No,57
+SID0000380,GID0000380,Purnanada Kumar,2008-04-30,M,Nityanand Kumar,Radhana Kumar,8,SKV Kanhjawala,2012-04-01,174,59,B+,Yes,71
+SID0000381,GID0000381,Parnik Ismail,2007-09-26,F,Abhirup Ismail,Omana Ismail,8,SKV Kanhjawala,2012-04-01,176,46,A+,No,60
+SID0000382,GID0000382,Habib Patel,2008-06-15,M,Osman Patel,Suravinda Patel,8,SKV Kanhjawala,2012-04-01,179,63,A-,No,60
+SID0000383,GID0000383,Prithu Raj,2008-07-19,M,Nityagopal Raj,Kalika Raj,8,SKV Kanhjawala,2012-04-01,178,58,AB+,No,72
+SID0000384,GID0000384,Treya Ismail,2007-07-13,F,Krishnamurari Ismail,Fatima Ismail,8,SKV Kanhjawala,2012-04-01,174,74,AB-,No,41
+SID0000385,GID0000385,Ankit Kumar,2008-08-14,M,Timir Kumar,Rajani Kumar,8,SKV Kanhjawala,2012-04-01,182,71,A-,No,77
+SID0000386,GID0000386,Dharma Singh,2008-03-18,M,Jatan Singh,Chakrika Singh,8,SKV Kanhjawala,2012-04-01,181,43,B-,No,75
+SID0000387,GID0000387,Kanika Singh,2007-03-20,F,Sacchidananda Singh,Raksha Singh,8,SKV Kanhjawala,2012-04-01,179,74,A-,No,51
+SID0000388,GID0000388,Sohan Jain,2008-03-26,M,Niral Jain,Gyanada Jain,8,SKV Kanhjawala,2012-04-01,178,57,O-,No,85
+SID0000389,GID0000389,Madhu Patel,2008-08-11,M,Gyan Patel,Keertana Patel,8,SKV Kanhjawala,2012-04-01,182,79,O-,No,55
+SID0000390,GID0000390,Janaki Raj,2007-01-20,F,Vikranta Raj,Mithra Raj,8,SKV Avantika,2012-04-01,177,79,B-,No,88
+SID0000391,GID0000391,Balamani Kumar,2008-09-22,M,Rishikesh Kumar,Purva Kumar,8,SKV Avantika,2012-04-01,179,61,A-,No,74
+SID0000392,GID0000392,Avanindra Kumar,2008-04-14,M,Rushil Kumar,Grhalakshmi Kumar,8,SKV Avantika,2012-04-01,178,44,A-,No,70
+SID0000393,GID0000393,Faria Singh,2007-09-15,F,Bibhavasu Singh,Mandra Singh,8,SKV Avantika,2012-04-01,177,47,O-,No,95
+SID0000394,GID0000394,Pratul Kumar,2008-01-20,M,Manibhushan Kumar,Sanskriti Kumar,8,SKV Avantika,2012-04-01,174,61,A-,No,65
+SID0000395,GID0000395,Sriram Jain,2008-06-19,M,Ranjan Jain,Ruchira Jain,8,SKV Avantika,2012-04-01,180,78,AB+,No,60
+SID0000396,GID0000396,Elili Patel,2007-04-24,F,Sugreev Patel,Padmalochana Patel,8,SKV Avantika,2012-04-01,175,75,O-,No,78
+SID0000397,GID0000397,Ashraf Patel,2008-08-17,M,Ranjan Patel,Aboil Patel,8,SKV Avantika,2012-04-01,174,60,A-,No,65
+SID0000398,GID0000398,Mekhal Khan,2008-07-14,M,Faisal Khan,Madhurima Khan,8,SKV Avantika,2012-04-01,182,59,B+,No,99
+SID0000399,GID0000399,Bandhura Kumar,2007-01-14,F,Udayachal Kumar,Ujwala Kumar,8,SKV Avantika,2012-04-01,174,50,AB+,No,42
+SID0000400,GID0000400,Faisal Kumar,2007-03-22,M,Vedanga Kumar,Sunayana Kumar,9,SKV Rohini,2011-04-01,179,52,B-,Yes,74
+SID0000401,GID0000401,Bhupendra Kumar,2007-08-21,M,Achintya Kumar,Jayashree Kumar,9,SKV Rohini,2011-04-01,175,79,AB+,No,52
+SID0000402,GID0000402,Manasika Kumar,2006-02-26,F,Deepesh Kumar,Aboil Kumar,9,SKV Rohini,2011-04-01,181,76,AB-,No,84
+SID0000403,GID0000403,Dharmadas Ismail,2007-09-14,M,Ananda Ismail,Neelkamal Ismail,9,SKV Rohini,2011-04-01,180,43,A+,No,48
+SID0000404,GID0000404,Aniteja Khan,2007-09-25,M,Achintya Khan,Gopika Khan,9,SKV Rohini,2011-04-01,182,71,O-,No,74
+SID0000405,GID0000405,Neeraja Patel,2006-01-16,F,Balamohan Patel,Samidha Patel,9,SKV Rohini,2011-04-01,183,57,AB+,No,40
+SID0000406,GID0000406,Anurag Kumar,2007-01-26,M,Shubhendu Kumar,Suhrita Kumar,9,SKV Rohini,2011-04-01,179,74,A-,No,50
+SID0000407,GID0000407,Asit Jain,2007-04-30,M,Purnanada Jain,Phiroza Jain,9,SKV Rohini,2011-04-01,177,67,B-,No,69
+SID0000408,GID0000408,Shivangi Raj,2006-02-16,F,Basudha Raj,Kunjal Raj,9,SKV Rohini,2011-04-01,179,45,B+,No,73
+SID0000409,GID0000409,Subhan Kumar,2007-01-26,M,Basudha Kumar,Jalahasini Kumar,9,SKV Rohini,2011-04-01,176,79,B+,No,67
+SID0000410,GID0000410,Kaviraj Patel,2007-02-27,M,Ganjan Patel,Omana Patel,9,SKV Karala,2011-04-01,182,75,B-,No,91
+SID0000411,GID0000411,Nusrat Jain,2006-03-11,F,Shripati Jain,Niral Jain,9,SKV Karala,2011-04-01,179,65,B+,No,63
+SID0000412,GID0000412,Achintya Ismail,2007-05-30,M,Avanindra Ismail,Hradha Ismail,9,SKV Karala,2011-04-01,175,49,A-,No,79
+SID0000413,GID0000413,Dharmendra Raj,2007-01-14,M,Kamat Raj,Pritilata Raj,9,SKV Karala,2011-04-01,178,55,AB+,No,66
+SID0000414,GID0000414,Devakanya Ismail,2006-01-19,F,Kashiprasad Ismail,Shalaka Ismail,9,SKV Karala,2011-04-01,182,78,O+,No,56
+SID0000415,GID0000415,Apparajito Khan,2007-08-15,M,Partha Khan,Masilmani Khan,9,SKV Karala,2011-04-01,179,68,A-,No,47
+SID0000416,GID0000416,Nabarun Kumar,2007-02-24,M,Avanindra Kumar,Ishrat Kumar,9,SKV Karala,2011-04-01,177,69,O-,No,84
+SID0000417,GID0000417,Geetika Raj,2006-02-17,F,Kandarpa Raj,Firoza Raj,9,SKV Karala,2011-04-01,178,44,AB-,No,84
+SID0000418,GID0000418,Aakar Raj,2007-06-24,M,Rasul Raj,Shabari Raj,9,SKV Karala,2011-04-01,183,66,B-,No,58
+SID0000419,GID0000419,Kirtikumar Jain,2007-09-12,M,Abhijit Jain,Chandrani Jain,9,SKV Karala,2011-04-01,184,70,O-,No,47
+SID0000420,GID0000420,Neelabja Raj,2006-01-24,F,Kamat Raj,Akuti Raj,9,SKV Begam Pur,2011-04-01,184,69,B-,Yes,69
+SID0000421,GID0000421,Sarvadaman Ismail,2007-07-27,M,Manibhushan Ismail,Shatarupa Ismail,9,SKV Begam Pur,2011-04-01,177,49,B-,No,61
+SID0000422,GID0000422,Nandan Ismail,2007-02-26,M,Taizeen Ismail,Sajala Ismail,9,SKV Begam Pur,2011-04-01,176,51,AB+,No,95
+SID0000423,GID0000423,Jalahasini Patel,2006-03-22,F,Habib Patel,Pritilata Patel,9,SKV Begam Pur,2011-04-01,184,57,A+,No,57
+SID0000424,GID0000424,Harsh Ismail,2007-04-21,M,Abhinava Ismail,Roshan Ismail,9,SKV Begam Pur,2011-04-01,176,79,B+,No,76
+SID0000425,GID0000425,Savar Kumar,2007-02-30,M,Balamohan Kumar,Chahana Kumar,9,SKV Begam Pur,2011-04-01,178,78,B-,No,100
+SID0000426,GID0000426,Samidha Raj,2006-02-29,F,Habib Raj,Dhanapriya Raj,9,SKV Begam Pur,2011-04-01,180,52,O+,No,85
+SID0000427,GID0000427,Irshaad Raj,2007-03-19,M,Uddhar Raj,Anandita Raj,9,SKV Begam Pur,2011-04-01,184,66,AB-,No,87
+SID0000428,GID0000428,Pritam Patel,2007-02-26,M,Achintya Patel,Shama Patel,9,SKV Begam Pur,2011-04-01,183,48,AB+,No,81
+SID0000429,GID0000429,Dhanapriya Ismail,2006-02-30,F,Shvetang Ismail,Jayashree Ismail,9,SKV Begam Pur,2011-04-01,178,43,A-,No,67
+SID0000430,GID0000430,Basudha Raj,2007-02-22,M,Tarpan Raj,Devahuti Raj,9,SKV Kanhjawala,2011-04-01,182,61,A-,No,56
+SID0000431,GID0000431,Patakin Khan,2007-07-18,M,Dasharathi Khan,Varada Khan,9,SKV Kanhjawala,2011-04-01,176,49,B+,No,72
+SID0000432,GID0000432,Naganika Khan,2006-07-25,F,Dasharathi Khan,Advika Khan,9,SKV Kanhjawala,2011-04-01,176,56,A+,No,92
+SID0000433,GID0000433,Sharan Raj,2007-04-18,M,Chiranjeev Raj,Shrikumari Raj,9,SKV Kanhjawala,2011-04-01,183,70,A-,No,65
+SID0000434,GID0000434,Jitendra Singh,2007-03-14,M,Satyasheel Singh,Rukma Singh,9,SKV Kanhjawala,2011-04-01,185,62,O+,No,60
+SID0000435,GID0000435,Susmita Jain,2006-01-30,F,Balagovind Jain,Ivy Jain,9,SKV Kanhjawala,2011-04-01,182,58,O+,No,99
+SID0000436,GID0000436,Nachiketa Jain,2007-07-17,M,Khalid Jain,Tamasa Jain,9,SKV Kanhjawala,2011-04-01,185,50,B+,No,86
+SID0000437,GID0000437,Ashis Patel,2007-05-14,M,Narasimha Patel,Nusrat Patel,9,SKV Kanhjawala,2011-04-01,183,44,A+,No,91
+SID0000438,GID0000438,Chandratara Ismail,2006-06-12,F,Debashis Ismail,Bandhura Ismail,9,SKV Kanhjawala,2011-04-01,179,47,A-,No,90
+SID0000439,GID0000439,Sajal Singh,2007-03-28,M,Rajdulari Singh,Sanika Singh,9,SKV Kanhjawala,2011-04-01,180,53,AB-,No,62
+SID0000440,GID0000440,Umesh Ismail,2007-02-15,M,Satrijit Ismail,Hradha Ismail,9,SKV Avantika,2011-04-01,181,73,O+,Yes,44
+SID0000441,GID0000441,Siddhi Kumar,2006-05-25,F,Shiromani Kumar,Labangalata Kumar,9,SKV Avantika,2011-04-01,177,48,B-,No,70
+SID0000442,GID0000442,Hiresh Raj,2007-06-14,M,Karunakar Raj,Shyamala Raj,9,SKV Avantika,2011-04-01,182,46,AB-,No,75
+SID0000443,GID0000443,Talat Khan,2007-07-25,M,Narasimha Khan,Inayat Khan,9,SKV Avantika,2011-04-01,185,55,B-,No,92
+SID0000444,GID0000444,Odathi Ismail,2006-09-23,F,Bhudev Ismail,Mehul Ismail,9,SKV Avantika,2011-04-01,180,46,AB+,No,48
+SID0000445,GID0000445,Meghashyam Khan,2007-04-12,M,Suvrata Khan,Rajani Khan,9,SKV Avantika,2011-04-01,177,57,O+,No,60
+SID0000446,GID0000446,Devarsi Jain,2007-07-17,M,Arjun Jain,Keertana Jain,9,SKV Avantika,2011-04-01,185,77,AB-,No,95
+SID0000447,GID0000447,Devika Patel,2006-02-23,F,Jagajeet Patel,Anandita Patel,9,SKV Avantika,2011-04-01,180,60,A-,No,40
+SID0000448,GID0000448,Premanand Kumar,2007-03-25,M,Indukanta Kumar,Ramila Kumar,9,SKV Avantika,2011-04-01,177,69,A-,No,85
+SID0000449,GID0000449,Prachetas Patel,2007-03-19,M,Saroj Patel,Sunandita Patel,9,SKV Avantika,2011-04-01,177,48,B-,No,65
+SID0000450,GID0000450,Nila Kumar,2005-01-26,F,Bhaumik Kumar,Nilavoli Kumar,10,SKV Rohini,2010-04-01,185,57,O-,No,74
+SID0000451,GID0000451,Rushil Ismail,2006-04-13,M,Aniteja Ismail,Kamya Ismail,10,SKV Rohini,2010-04-01,182,64,B-,No,67
+SID0000452,GID0000452,Brahmabrata Raj,2006-02-12,M,Japendra Raj,Ramila Raj,10,SKV Rohini,2010-04-01,183,80,B+,No,83
+SID0000453,GID0000453,Malashree Khan,2005-08-17,F,Arun Khan,Charusila Khan,10,SKV Rohini,2010-04-01,182,44,AB-,No,81
+SID0000454,GID0000454,Jairaj Singh,2006-05-11,M,Priya Singh,Karunya Singh,10,SKV Rohini,2010-04-01,185,70,O+,No,68
+SID0000455,GID0000455,Aakar Kumar,2006-08-28,M,Lakshmikanta Kumar,Janani Kumar,10,SKV Rohini,2010-04-01,180,73,O+,No,81
+SID0000456,GID0000456,Purva Singh,2005-08-29,F,Bhajan Singh,Mayil Singh,10,SKV Rohini,2010-04-01,182,52,AB-,No,100
+SID0000457,GID0000457,Shishirkumar Jain,2006-01-26,M,Trailokva Jain,Kunjalata Jain,10,SKV Rohini,2010-04-01,180,57,O-,No,68
+SID0000458,GID0000458,Chirantan Kumar,2006-07-27,M,Rupesh Kumar,Dwipavati Kumar,10,SKV Rohini,2010-04-01,180,65,A-,No,63
+SID0000459,GID0000459,Sahila Jain,2005-07-18,F,Pratul Jain,Elampirai Jain,10,SKV Rohini,2010-04-01,182,46,AB+,No,54
+SID0000460,GID0000460,Madhav Raj,2006-09-13,M,Pratul Raj,Somatra Raj,10,SKV Karala,2010-04-01,185,71,O-,Yes,96
+SID0000461,GID0000461,Baladhitya Singh,2006-07-28,M,Saeed Singh,Vijayalakshmi Singh,10,SKV Karala,2010-04-01,183,79,A+,No,69
+SID0000462,GID0000462,Shrimayi Khan,2005-02-20,F,Etash Khan,Kusumanjali Khan,10,SKV Karala,2010-04-01,180,75,B-,No,96
+SID0000463,GID0000463,Manohar Patel,2006-04-28,M,Pradosh Patel,Shishirkana Patel,10,SKV Karala,2010-04-01,182,59,AB+,No,91
+SID0000464,GID0000464,Kashyap Patel,2006-07-17,M,Janith Patel,Rukma Patel,10,SKV Karala,2010-04-01,180,69,A+,No,52
+SID0000465,GID0000465,Samit Jain,2005-04-13,F,Budhil Jain,Madhurima Jain,10,SKV Karala,2010-04-01,184,50,A-,No,60
+SID0000466,GID0000466,Indeever Kumar,2006-02-16,M,Jagajeet Kumar,Sashi Kumar,10,SKV Karala,2010-04-01,181,68,A+,No,43
+SID0000467,GID0000467,Kandan Jain,2006-09-15,M,Jagadish Jain,Neelakshi Jain,10,SKV Karala,2010-04-01,180,73,B-,No,92
+SID0000468,GID0000468,Sajala Singh,2005-08-13,F,Rakesh Singh,Vedvalli Singh,10,SKV Karala,2010-04-01,180,44,A+,No,82
+SID0000469,GID0000469,Rasesh Patel,2006-09-24,M,Vrishin Patel,Sanika Patel,10,SKV Karala,2010-04-01,187,44,AB+,No,83
+SID0000470,GID0000470,Vipra Ismail,2006-09-20,M,Ekaraj Ismail,Ranjini Ismail,10,SKV Begam Pur,2010-04-01,182,42,A+,No,78
+SID0000471,GID0000471,Jeevanlata Khan,2005-07-14,F,Shambhu Khan,Lalima Khan,10,SKV Begam Pur,2010-04-01,180,47,B+,No,66
+SID0000472,GID0000472,Timirbaran Raj,2006-05-28,M,Habib Raj,Devahuti Raj,10,SKV Begam Pur,2010-04-01,185,62,O+,No,64
+SID0000473,GID0000473,Ganaka Jain,2006-08-12,M,Dasharathi Jain,Tejashree Jain,10,SKV Begam Pur,2010-04-01,183,74,AB-,No,46
+SID0000474,GID0000474,Hemangini Singh,2005-08-30,F,Basistha Singh,Ushma Singh,10,SKV Begam Pur,2010-04-01,185,42,B-,No,78
+SID0000475,GID0000475,Pukhraj Ismail,2006-01-12,M,Bahubali Ismail,Manda Ismail,10,SKV Begam Pur,2010-04-01,181,46,A-,No,84
+SID0000476,GID0000476,SendhilNathan Patel,2006-09-30,M,Chapal Patel,Vipula Patel,10,SKV Begam Pur,2010-04-01,179,79,A+,No,54
+SID0000477,GID0000477,Mrinalini Khan,2005-01-15,F,Maniram Khan,Dhanapriya Khan,10,SKV Begam Pur,2010-04-01,184,68,AB-,No,42
+SID0000478,GID0000478,Makarand Ismail,2006-05-11,M,Manuj Ismail,Sarasa Ismail,10,SKV Begam Pur,2010-04-01,185,56,O-,No,97
+SID0000479,GID0000479,Ved Raj,2006-04-25,M,Asgar Raj,Labangalata Raj,10,SKV Begam Pur,2010-04-01,187,78,B+,No,96
+SID0000480,GID0000480,Chandratara Jain,2005-09-23,F,Faraz Jain,Abhinithi Jain,10,SKV Kanhjawala,2010-04-01,179,52,A-,Yes,50
+SID0000481,GID0000481,Vrishin Kumar,2006-06-29,M,Dharmendra Kumar,Kajal Kumar,10,SKV Kanhjawala,2010-04-01,183,69,A+,No,79
+SID0000482,GID0000482,Raghuvir Singh,2006-03-18,M,Ranjan Singh,Jaladhija Singh,10,SKV Kanhjawala,2010-04-01,187,56,A-,No,62
+SID0000483,GID0000483,Vari Khan,2005-05-16,F,Rajdulari Khan,Champabati Khan,10,SKV Kanhjawala,2010-04-01,186,40,A-,No,99
+SID0000484,GID0000484,Osman Raj,2006-07-17,M,Dharmesh Raj,Kalya Raj,10,SKV Kanhjawala,2010-04-01,187,78,AB+,No,85
+SID0000485,GID0000485,Acalendra Singh,2006-09-19,M,Mekhal Singh,Lalima Singh,10,SKV Kanhjawala,2010-04-01,188,42,O+,No,93
+SID0000486,GID0000486,Ananya Khan,2005-09-27,F,Ulhas Khan,Nirmala Khan,10,SKV Kanhjawala,2010-04-01,180,72,B+,No,92
+SID0000487,GID0000487,Satyankar Khan,2006-05-28,M,Sourish Khan,Neelkamal Khan,10,SKV Kanhjawala,2010-04-01,180,68,A+,No,97
+SID0000488,GID0000488,Arulchelvan Patel,2006-06-13,M,Saroj Patel,Suranjana Patel,10,SKV Kanhjawala,2010-04-01,187,74,A+,No,41
+SID0000489,GID0000489,Chandrabali Jain,2005-04-25,F,Ellu Jain,Devika Jain,10,SKV Kanhjawala,2010-04-01,181,46,O+,No,64
+SID0000490,GID0000490,Etash Jain,2006-02-26,M,Talleen Jain,Treya Jain,10,SKV Avantika,2010-04-01,180,64,AB+,No,78
+SID0000491,GID0000491,Vikranta Khan,2006-09-23,M,Shiromani Khan,Vandana Khan,10,SKV Avantika,2010-04-01,182,52,O+,No,49
+SID0000492,GID0000492,Priyam Singh,2005-09-22,F,Arun Singh,Janani Singh,10,SKV Avantika,2010-04-01,185,64,B-,No,70
+SID0000493,GID0000493,Bahuleya Jain,2006-07-19,M,Dharmendra Jain,Jagavi Jain,10,SKV Avantika,2010-04-01,182,74,O+,No,56
+SID0000494,GID0000494,Bhudev Singh,2006-03-27,M,Elumalai Singh,Namrata Singh,10,SKV Avantika,2010-04-01,181,68,A+,No,91
+SID0000495,GID0000495,Vanaja Khan,2005-08-17,F,Bhaumik Khan,Maitra Khan,10,SKV Avantika,2010-04-01,185,54,A+,No,57
+SID0000496,GID0000496,Devdas Raj,2006-05-17,M,Premanand Raj,Janani Raj,10,SKV Avantika,2010-04-01,186,80,B-,No,87
+SID0000497,GID0000497,Indivar Jain,2006-08-22,M,Dasharathi Jain,Rachna Jain,10,SKV Avantika,2010-04-01,184,75,A-,No,48
+SID0000498,GID0000498,Ambika Kumar,2005-08-26,F,Gursharan Kumar,Jagriti Kumar,10,SKV Avantika,2010-04-01,184,40,AB-,No,70
+SID0000499,GID0000499,Satyasheel Kumar,2006-05-30,M,Aniteja Kumar,Valli Kumar,10,SKV Avantika,2010-04-01,185,74,AB+,No,58
+SID0000500,GID0000500,Dharmendu Kumar,2005-06-29,M,Akalpa Kumar,Aksithi Kumar,11,SKV Rohini,2009-04-01,181,50,A-,Yes,84
+SID0000501,GID0000501,Harsha Kumar,2004-07-24,F,Gyan Kumar,Kanika Kumar,11,SKV Rohini,2009-04-01,182,53,O+,No,69
+SID0000502,GID0000502,Fateen Singh,2005-05-11,M,Vetrival Singh,Ashwini Singh,11,SKV Rohini,2009-04-01,188,59,AB+,No,47
+SID0000503,GID0000503,Jatan Kumar,2005-05-12,M,Krishnamurari Kumar,Shruti Kumar,11,SKV Rohini,2009-04-01,189,58,B-,No,60
+SID0000504,GID0000504,Anjushree Kumar,2004-06-23,F,Abhyudita Kumar,Bala Kumar,11,SKV Rohini,2009-04-01,185,71,O+,No,60
+SID0000505,GID0000505,Elilarasan Kumar,2005-05-18,M,Nikhat Kumar,Naaz Kumar,11,SKV Rohini,2009-04-01,189,61,B+,No,58
+SID0000506,GID0000506,Anunay Kumar,2005-01-18,M,Ved Kumar,Tarakini Kumar,11,SKV Rohini,2009-04-01,187,57,O+,No,75
+SID0000507,GID0000507,Shabalini Jain,2004-03-19,F,Saurabh Jain,Vallari Jain,11,SKV Rohini,2009-04-01,186,75,B+,No,41
+SID0000508,GID0000508,Jalil Ismail,2005-09-27,M,Bahubali Ismail,Iha Ismail,11,SKV Rohini,2009-04-01,184,71,A-,No,94
+SID0000509,GID0000509,Indrakanta Ismail,2005-01-11,M,Kamlesh Ismail,Januja Ismail,11,SKV Rohini,2009-04-01,181,40,O-,No,59
+SID0000510,GID0000510,Sharadini Khan,2004-06-14,F,Ramavatar Khan,Sunita Khan,11,SKV Karala,2009-04-01,183,52,AB-,No,81
+SID0000511,GID0000511,Suhail Kumar,2005-04-19,M,Sudhakar Kumar,Geshna Kumar,11,SKV Karala,2009-04-01,182,63,AB-,No,81
+SID0000512,GID0000512,Udeep Singh,2005-09-11,M,Balwant Singh,Komala Singh,11,SKV Karala,2009-04-01,189,57,B-,No,48
+SID0000513,GID0000513,Ashritha Jain,2004-09-12,F,Nabhi Jain,Ashwini Jain,11,SKV Karala,2009-04-01,186,49,A-,No,44
+SID0000514,GID0000514,Nirmanyu Singh,2005-05-19,M,Shantiprakash Singh,Ambalika Singh,11,SKV Karala,2009-04-01,187,49,A-,No,59
+SID0000515,GID0000515,Quasim Singh,2005-07-26,M,Makarand Singh,Ekantha Singh,11,SKV Karala,2009-04-01,186,64,A-,No,92
+SID0000516,GID0000516,Urmila Jain,2004-03-20,F,Pradyumna Jain,Harinakshi Jain,11,SKV Karala,2009-04-01,182,59,A-,No,95
+SID0000517,GID0000517,Shrikumar Ismail,2005-05-27,M,Mukul Ismail,Wamil Ismail,11,SKV Karala,2009-04-01,190,67,O-,No,81
+SID0000518,GID0000518,Devarpana Kumar,2005-07-12,M,Gulab Kumar,Vinanti Kumar,11,SKV Karala,2009-04-01,185,80,AB+,No,93
+SID0000519,GID0000519,Shobha Kumar,2004-04-18,F,Gangeya Kumar,Nalini Kumar,11,SKV Karala,2009-04-01,182,66,B+,No,45
+SID0000520,GID0000520,Kamlesh Jain,2005-02-25,M,Mihir Jain,Devasree Jain,11,SKV Begam Pur,2009-04-01,186,65,A+,Yes,45
+SID0000521,GID0000521,Dinesh Singh,2005-03-21,M,Bhupendra Singh,Nandini Singh,11,SKV Begam Pur,2009-04-01,185,40,A-,No,99
+SID0000522,GID0000522,Keshi Raj,2004-07-14,F,Hritish Raj,Akhila Raj,11,SKV Begam Pur,2009-04-01,185,41,B+,No,80
+SID0000523,GID0000523,Uttiya Kumar,2005-06-12,M,Umesh Kumar,Wamika Kumar,11,SKV Begam Pur,2009-04-01,190,60,A+,No,44
+SID0000524,GID0000524,Anarghya Patel,2005-07-20,M,Kunjabihari Patel,Nagina Patel,11,SKV Begam Pur,2009-04-01,188,47,B+,No,64
+SID0000525,GID0000525,Neeharika Kumar,2004-03-18,F,Indushekhar Kumar,Amani Kumar,11,SKV Begam Pur,2009-04-01,185,79,O-,No,75
+SID0000526,GID0000526,Kanwaljeet Jain,2005-08-12,M,Mukul Jain,Shyamali Jain,11,SKV Begam Pur,2009-04-01,190,79,AB+,No,44
+SID0000527,GID0000527,Anshul Jain,2005-07-16,M,Ulhas Jain,Rachna Jain,11,SKV Begam Pur,2009-04-01,183,56,AB+,No,66
+SID0000528,GID0000528,Hita Kumar,2004-04-28,F,Shubhankar Kumar,Gargi Kumar,11,SKV Begam Pur,2009-04-01,189,56,AB+,No,84
+SID0000529,GID0000529,Jagath Jain,2005-05-15,M,Prithu Jain,Sarasa Jain,11,SKV Begam Pur,2009-04-01,183,65,O-,No,88
+SID0000530,GID0000530,Sendhil Raj,2005-09-23,M,Niranjan Raj,Shatarupa Raj,11,SKV Kanhjawala,2009-04-01,186,65,A-,No,47
+SID0000531,GID0000531,Jenya Patel,2004-07-17,F,Satyankar Patel,Usri Patel,11,SKV Kanhjawala,2009-04-01,183,55,AB-,No,60
+SID0000532,GID0000532,Ekambar Patel,2005-09-21,M,Nabarun Patel,Ashoka Patel,11,SKV Kanhjawala,2009-04-01,190,63,B-,No,86
+SID0000533,GID0000533,Vendan Raj,2005-05-25,M,Ibrahim Raj,Valli Raj,11,SKV Kanhjawala,2009-04-01,182,52,AB+,No,48
+SID0000534,GID0000534,Vanaja Jain,2004-06-26,F,Vetrival Jain,Chakori Jain,11,SKV Kanhjawala,2009-04-01,185,60,B-,No,70
+SID0000535,GID0000535,Chandrahas Ismail,2005-03-28,M,Murarilal Ismail,Yashoda Ismail,11,SKV Kanhjawala,2009-04-01,184,45,AB+,No,59
+SID0000536,GID0000536,Paravasu Singh,2005-07-20,M,Vishvajit Singh,Malaya Singh,11,SKV Kanhjawala,2009-04-01,186,59,A-,No,74
+SID0000537,GID0000537,Jowaki Jain,2004-07-30,F,Sudhakar Jain,Abhirathi Jain,11,SKV Kanhjawala,2009-04-01,184,44,A-,No,48
+SID0000538,GID0000538,Syamantak Khan,2005-09-12,M,Chandrakanta Khan,Apsara Khan,11,SKV Kanhjawala,2009-04-01,183,50,O-,No,73
+SID0000539,GID0000539,Balagovind Patel,2005-01-20,M,Ibrahim Patel,Sarbani Patel,11,SKV Kanhjawala,2009-04-01,187,52,O+,No,82
+SID0000540,GID0000540,Tannishtha Kumar,2004-05-11,F,Ashraf Kumar,Hemangi Kumar,11,SKV Avantika,2009-04-01,185,73,B-,Yes,89
+SID0000541,GID0000541,Ravikiran Khan,2005-05-26,M,Senmal Khan,Ashima Khan,11,SKV Avantika,2009-04-01,183,73,O-,No,45
+SID0000542,GID0000542,Shrikanta Singh,2005-02-18,M,Pratul Singh,Gangotri Singh,11,SKV Avantika,2009-04-01,185,72,A+,No,76
+SID0000543,GID0000543,Tapani Raj,2004-09-17,F,Anbu Raj,Mandarmalika Raj,11,SKV Avantika,2009-04-01,189,57,B+,No,57
+SID0000544,GID0000544,Virendra Ismail,2005-02-24,M,Uddhar Ismail,Sumedha Ismail,11,SKV Avantika,2009-04-01,189,63,O-,No,82
+SID0000545,GID0000545,Pranet Kumar,2005-09-19,M,Srijan Kumar,Yamini Kumar,11,SKV Avantika,2009-04-01,184,77,O-,No,59
+SID0000546,GID0000546,Kimaya Ismail,2004-02-12,F,Nimai Ismail,Triyama Ismail,11,SKV Avantika,2009-04-01,185,75,A+,No,92
+SID0000547,GID0000547,Dheerendra Singh,2005-05-25,M,Indukanta Singh,Revati Singh,11,SKV Avantika,2009-04-01,191,76,B+,No,68
+SID0000548,GID0000548,Chaman Kumar,2005-07-20,M,Ashvin Kumar,Vedika Kumar,11,SKV Avantika,2009-04-01,183,50,O+,No,77
+SID0000549,GID0000549,Aruni Jain,2004-02-20,F,Tarit Jain,Akhila Jain,11,SKV Avantika,2009-04-01,185,60,O+,No,53
+SID0000550,GID0000550,Dayanand Patel,2004-03-28,M,Champak Patel,Charusila Patel,12,SKV Rohini,2008-04-01,187,78,B+,No,85
+SID0000551,GID0000551,Nirmalya Jain,2004-02-21,M,Kandan Jain,Mrinalini Jain,12,SKV Rohini,2008-04-01,186,74,B-,No,99
+SID0000552,GID0000552,Ipsa Singh,2003-01-13,F,Premanand Singh,Yosana Singh,12,SKV Rohini,2008-04-01,187,54,A+,No,56
+SID0000553,GID0000553,Amitabh Singh,2004-07-12,M,Devanand Singh,Shamita Singh,12,SKV Rohini,2008-04-01,190,52,O-,No,83
+SID0000554,GID0000554,Avatar Kumar,2004-04-13,M,Meghashyam Kumar,Sharmistha Kumar,12,SKV Rohini,2008-04-01,184,54,O-,No,56
+SID0000555,GID0000555,Shrabana Raj,2003-04-28,F,Vedanga Raj,Chandrabali Raj,12,SKV Rohini,2008-04-01,187,56,O-,No,86
+SID0000556,GID0000556,Hariraj Singh,2004-02-16,M,Nabarun Singh,Usri Singh,12,SKV Rohini,2008-04-01,184,62,A-,No,56
+SID0000557,GID0000557,Tapan Jain,2004-07-21,M,Shankha Jain,Vallika Jain,12,SKV Rohini,2008-04-01,184,64,AB+,No,75
+SID0000558,GID0000558,Pakshi Singh,2003-02-18,F,Sajal Singh,Kamya Singh,12,SKV Rohini,2008-04-01,192,66,AB+,No,61
+SID0000559,GID0000559,Akash Ismail,2004-04-11,M,Ravikiran Ismail,Shishirkana Ismail,12,SKV Rohini,2008-04-01,192,78,A+,No,65
+SID0000560,GID0000560,Indrajit Raj,2004-03-27,M,Shriranga Raj,Gyanada Raj,12,SKV Karala,2008-04-01,184,71,AB+,Yes,65
+SID0000561,GID0000561,Ratnabali Jain,2003-07-23,F,Lav Jain,Vyjayanti Jain,12,SKV Karala,2008-04-01,186,42,B+,No,79
+SID0000562,GID0000562,Pramath Singh,2004-05-17,M,Amitesh Singh,Pusti Singh,12,SKV Karala,2008-04-01,189,50,AB-,No,99
+SID0000563,GID0000563,Sankara Khan,2004-03-30,M,Sachin Khan,Manayi Khan,12,SKV Karala,2008-04-01,185,72,O-,No,89
+SID0000564,GID0000564,Madhushri Ismail,2003-06-25,F,Etash Ismail,Firoza Ismail,12,SKV Karala,2008-04-01,192,80,A-,No,53
+SID0000565,GID0000565,Shreyas Kumar,2004-06-26,M,Jaimini Kumar,Manasika Kumar,12,SKV Karala,2008-04-01,186,53,B+,No,45
+SID0000566,GID0000566,Avanindra Khan,2004-03-14,M,Navin Khan,Jayantika Khan,12,SKV Karala,2008-04-01,189,60,A-,No,87
+SID0000567,GID0000567,Indrayani Jain,2003-02-23,F,Anuha Jain,Niral Jain,12,SKV Karala,2008-04-01,193,71,A+,No,92
+SID0000568,GID0000568,Deepit Khan,2004-03-26,M,Haresh Khan,Anandi Khan,12,SKV Karala,2008-04-01,193,77,AB+,No,80
+SID0000569,GID0000569,Kamod Ismail,2004-07-15,M,Manoranjan Ismail,Serena Ismail,12,SKV Karala,2008-04-01,189,55,AB+,No,73
+SID0000570,GID0000570,Shyama Ismail,2003-01-30,F,Manikandan Ismail,Iniya Ismail,12,SKV Begam Pur,2008-04-01,190,70,O-,No,70
+SID0000571,GID0000571,Kapil Kumar,2004-09-23,M,Karunashankar Kumar,Lochan Kumar,12,SKV Begam Pur,2008-04-01,187,47,O+,No,90
+SID0000572,GID0000572,Chandrakanta Raj,2004-07-27,M,Baladhi Raj,Fatima Raj,12,SKV Begam Pur,2008-04-01,192,74,B+,No,77
+SID0000573,GID0000573,Renuka Jain,2003-09-25,F,Rishikesh Jain,Gayatri Jain,12,SKV Begam Pur,2008-04-01,192,59,O-,No,72
+SID0000574,GID0000574,Nadir Raj,2004-06-25,M,Manibhushan Raj,Divya Raj,12,SKV Begam Pur,2008-04-01,192,44,B+,No,61
+SID0000575,GID0000575,Animish Singh,2004-09-30,M,Nand Singh,Chandratara Singh,12,SKV Begam Pur,2008-04-01,188,67,A+,No,80
+SID0000576,GID0000576,Kajri Singh,2003-07-12,F,Pavani Singh,Tripurasundari Singh,12,SKV Begam Pur,2008-04-01,192,47,AB+,No,79
+SID0000577,GID0000577,Sanchay Jain,2004-07-20,M,Vedprakash Jain,Jalahasini Jain,12,SKV Begam Pur,2008-04-01,187,63,A-,No,68
+SID0000578,GID0000578,Amoha Jain,2004-07-23,M,Vrishin Jain,Kadambini Jain,12,SKV Begam Pur,2008-04-01,186,60,AB+,No,61
+SID0000579,GID0000579,Sanskriti Ismail,2003-08-21,F,Hurditya Ismail,Inayat Ismail,12,SKV Begam Pur,2008-04-01,188,40,B+,No,45
+SID0000580,GID0000580,Dharanidhar Patel,2004-04-16,M,Nabhi Patel,Vagdevi Patel,12,SKV Kanhjawala,2008-04-01,185,73,B-,Yes,80
+SID0000581,GID0000581,Lakshman Kumar,2004-08-12,M,Madangopal Kumar,Tanmaya Kumar,12,SKV Kanhjawala,2008-04-01,188,70,O-,No,83
+SID0000582,GID0000582,Anurati Khan,2003-09-11,F,Vineet Khan,Atreyi Khan,12,SKV Kanhjawala,2008-04-01,190,79,B-,No,69
+SID0000583,GID0000583,Gandharva Khan,2004-01-19,M,Pradyumna Khan,Kanchana Khan,12,SKV Kanhjawala,2008-04-01,193,80,AB-,No,73
+SID0000584,GID0000584,Chandrachur Ismail,2004-07-28,M,Bhudev Ismail,Ramila Ismail,12,SKV Kanhjawala,2008-04-01,189,43,A-,No,43
+SID0000585,GID0000585,Dadhija Jain,2003-05-15,F,Panduranga Jain,Premala Jain,12,SKV Kanhjawala,2008-04-01,188,61,AB-,No,51
+SID0000586,GID0000586,Krishnakumar Patel,2004-06-26,M,Lakshmikanta Patel,Keertana Patel,12,SKV Kanhjawala,2008-04-01,191,69,O+,No,84
+SID0000587,GID0000587,Ratul Ismail,2004-03-30,M,Etash Ismail,Dwipavati Ismail,12,SKV Kanhjawala,2008-04-01,187,55,O-,No,53
+SID0000588,GID0000588,Kumudini Raj,2003-05-27,F,Rafat Raj,Apsara Raj,12,SKV Kanhjawala,2008-04-01,188,51,AB-,No,53
+SID0000589,GID0000589,Balgopal Jain,2004-03-20,M,Jalindra Jain,Ahladita Jain,12,SKV Kanhjawala,2008-04-01,188,56,O+,No,72
+SID0000590,GID0000590,Jusal Ismail,2004-05-16,M,Arihant Ismail,Radhana Ismail,12,SKV Avantika,2008-04-01,187,44,AB+,No,52
+SID0000591,GID0000591,Subhuja Jain,2003-07-13,F,Trailokva Jain,Suravinda Jain,12,SKV Avantika,2008-04-01,189,71,B-,No,62
+SID0000592,GID0000592,Abhijvala Patel,2004-02-14,M,Ekram Patel,Devahuti Patel,12,SKV Avantika,2008-04-01,186,68,AB-,No,58
+SID0000593,GID0000593,Prasoon Raj,2004-04-23,M,Chandrakanta Raj,Supriti Raj,12,SKV Avantika,2008-04-01,189,79,AB+,No,67
+SID0000594,GID0000594,Chandravathi Kumar,2003-03-20,F,Jalal Kumar,Kiran Kumar,12,SKV Avantika,2008-04-01,193,53,A+,No,64
+SID0000595,GID0000595,Chandresh Kumar,2004-08-25,M,Bahubali Kumar,Poonam Kumar,12,SKV Avantika,2008-04-01,194,43,O+,No,79
+SID0000596,GID0000596,Gurudutt Patel,2004-02-17,M,Indumat Patel,Sajala Patel,12,SKV Avantika,2008-04-01,186,61,AB-,No,50
+SID0000597,GID0000597,Ratnangi Khan,2003-03-19,F,Natraj Khan,Arati Khan,12,SKV Avantika,2008-04-01,186,68,A+,No,90
+SID0000598,GID0000598,Balakrishna Singh,2004-07-12,M,Abhyudita Singh,Omana Singh,12,SKV Avantika,2008-04-01,194,77,A+,No,42
+SID0000599,GID0000599,Taraprashad Singh,2004-07-24,M,Sadanand Singh,Sucharita Singh,12,SKV Avantika,2008-04-01,189,47,B+,No,97
+SID0000600,GID0000600,Naseen Singh,2002-07-11,F,Mithilesh Singh,Wamika Singh,12,SKV Rohini,2007-04-01,188,61,O+,Yes,83
