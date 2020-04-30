@@ -70,5 +70,6 @@
             <Font name="Roboto" size="18.0" />
          </font>
       </Label>
+      <ImageView fitHeight="39.0" fitWidth="88.0" layoutX="1064.0" layoutY="28.0" onMouseClicked="#Error" pickOnBounds="true" preserveRatio="true" />
    </children>
 </AnchorPane>

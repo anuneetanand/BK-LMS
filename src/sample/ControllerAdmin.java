@@ -44,7 +44,8 @@ public class ControllerAdmin
     public TextField YOS;
     public TextField TClass;
 
-    public static void Admin(String ID) {
+    public static void Admin(String ID)
+    {
         stmt = null;
         try { stmt = ConnectDB.DB.createStatement(); } catch (SQLException e) { e.printStackTrace(); }
         sql = "SELECT * FROM Administration WHERE AID = '" + ID + "';";
@@ -196,5 +197,8 @@ public class ControllerAdmin
 
     public void GoHome() throws IOException
     { Main.setRoot_Home();}
+
+    public void Error() throws IOException
+    { Main.setRoot_Error(); }
 
 }

@@ -185,4 +185,7 @@ public class ControllerGuardian
 
     public void Refresh() throws SQLException
     { Info(); RetrieveMarks();GetOP();GetAttendance();GetSR();GetSS();GetFee();}
+
+    public void Error() throws IOException
+    { Main.setRoot_Error(); }
 }

@@ -105,7 +105,7 @@ public class ControllerStudent
         try {
             String P = "";
             if (!rs.next()) { P = "No Assignments Due :)"; }
-            else { do { P = P + rs.getString("AssignmentID")+" : "+rs.getString("Date")+" ]\n"; } while (rs.next()); }
+            else { do { P = P + rs.getString("AssignmentID")+" : "+rs.getString("Date")+" \n"; } while (rs.next()); }
             Work.setText(P);
         } catch (SQLException e) { e.printStackTrace(); }
     }
@@ -204,6 +204,9 @@ public class ControllerStudent
 
     public void GoHome() throws IOException
     { Main.setRoot_Home(); }
+
+    public void Error() throws IOException
+    { Main.setRoot_Error(); }
 
     public void Refresh() throws SQLException
     { Info();RetrieveBooks();RetrieveAssignment();CheckAttendance(); RetrieveMarks();GetNotice();}

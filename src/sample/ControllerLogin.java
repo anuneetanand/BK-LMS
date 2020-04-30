@@ -32,4 +32,9 @@ public class ControllerLogin
 
     public void GoHome() throws IOException
     { Main.setRoot_Home(); }
+
+    public void Error() throws IOException
+    { Main.setRoot_Error(); }
 }
+
+

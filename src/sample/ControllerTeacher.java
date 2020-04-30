@@ -160,6 +160,9 @@ public class ControllerTeacher
 
     public void GoHome() throws IOException
     { Main.setRoot_Home(); }
+
+    public void Error() throws IOException
+    { Main.setRoot_Error(); }
     
     public void Refresh() throws SQLException
     { Info();RetrieveFB();CheckSubmissions();AnalyseMarks();List(); }
