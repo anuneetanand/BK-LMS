@@ -1,0 +1,36 @@
+Student
+	- Know score in all 5 subjects in last exam conducted.
+	- Know books required.
+	- Know Attendance
+	- Check assignments due
+	- Update Teacher feedback
+
+Guardian
+	- Know attendance
+	- Scholarship Status
+	- Edit some attributes of student
+	- Overall performance of child
+	- Check fee details
+	- Check school rank
+
+Teacher
+	- Check feedback
+	- Check Avg & Max marks of students (having same school & class as her)
+	- Add Assignment
+	- Check number of submissions of assignments given
+	- List names of students (having same school & class as her) who performed poor (<30) in exams
+
+Admin
+	- Enroll Student(Alongith Guardian)
+	- Enroll Teacher
+	- See school rank
+	- List SIDs of students who have not paid fees
+	- Update fee status (Paid/Due) of a student
+
+Govt
+	- Assign score to school
+	- Check AVG BMI of schools given a class
+	- List schools with lowest avg marks
+	- List schools with lowest avg attendance
+	- Approve scholarship by giving some cutoff
+	- Check avg teacher ratings school.
