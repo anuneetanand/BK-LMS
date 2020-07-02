@@ -36,16 +36,43 @@ Execute the JAR file.
 ![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-2.png)
 
 ### Student Page
+
+- View marks in different subjects.
+- View Attendance
+- View recent notices.
+- View due assignments.
+- Give feedback to Teachers.
+
 ![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-3.png)
 
 ### Guarduan Page
+
+- View ward's performance
+- Keep track of ward's attendance.
+- View infomation about different schools.
+- Pay fees.
+
 ![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-4.png)
 
 ### Teacher Page
+
+- Add new assignment.
+- Analysis marks of students.
+- View Feedback rating.
+
 ![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-5.png)
 
 ### Administration Page
+
+- Enroll Student.
+- Enroll Teacher.
+- Check fee defaulters.
+
 ![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-6.png)
 
 ### PerformX
+
+- Analysis perfomance of various schools on different parameters using dynamic graphs.
+- Calculate scores based on analysis.
+
 ![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-7.png)
