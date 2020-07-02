@@ -25,7 +25,7 @@ Execute the JAR file.
 
 ## Dependancies
 
- -  Java 11.0.2
+ - Java 11.0.2
  - JavaFX 11
  - Jfeonix 9
  - mysql-connector-java:8.0.5
@@ -57,7 +57,7 @@ Execute the JAR file.
 ### Teacher Page
 
 - Add new assignment.
-- Analysis marks of students.
+- Analysis of marks of students.
 - View Feedback rating.
 
 ![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-5.png)
