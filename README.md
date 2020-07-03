@@ -45,7 +45,7 @@ Execute the JAR file.
 
 ![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-3.png)
 
-### Guarduan Page
+### Guardian Page
 
 - View ward's performance
 - Keep track of ward's attendance.
