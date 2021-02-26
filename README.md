@@ -57,9 +57,9 @@ $ mysql database_name < Database/Database.sql
 
 ## Build Project :wrench:
 
-Build a local copy of MySQL database
-Build the project as JavaFX app with required dependancies into a JAR file.
-Execute the JAR file.
+- Build a local copy of MySQL database
+- Build the project as JavaFX app with required dependancies into a JAR file.
+- Execute the JAR file.
 
 ## Dependancies :gear:
 
