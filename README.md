@@ -3,7 +3,7 @@
 
 A database management system and portal designed specifically for government schools with a beautiful and user-friendly UI. The stakeholders include Students, Guardians, Teachers, Administration and Education Ministry. Being a centralised database for all government schools, Education Ministry is provided insights about performance of various schools using smart systems and dynamic graphs.
 
-![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-1.png)
+<img width="1278" alt="BK-1" src="https://user-images.githubusercontent.com/42066451/118356454-e82c4480-b592-11eb-8b56-29bb1c995911.png">
 
 ## Folder Structure
 ```
@@ -71,7 +71,8 @@ $ mysql database_name < Database/Database.sql
 ## Preview :star:
 
 ### Login Page
-![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-2.png)
+
+<img width="1272" alt="BK-2" src="https://user-images.githubusercontent.com/42066451/118356469-02feb900-b593-11eb-8cb6-350629a35d87.png">
 
 ### Student Page
 
@@ -81,7 +82,7 @@ $ mysql database_name < Database/Database.sql
 - View due assignments.
 - Give feedback to Teachers.
 
-![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-3.png)
+<img width="1278" alt="BK-3" src="https://user-images.githubusercontent.com/42066451/118356477-0a25c700-b593-11eb-975c-e708fa9ec41f.png">
 
 ### Guardian Page
 
@@ -90,7 +91,7 @@ $ mysql database_name < Database/Database.sql
 - View infomation about different schools.
 - Pay fees.
 
-![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-4.png)
+<img width="1275" alt="BK-4" src="https://user-images.githubusercontent.com/42066451/118356485-17db4c80-b593-11eb-8b93-944e5f7ba29e.png">
 
 ### Teacher Page
 
@@ -98,7 +99,7 @@ $ mysql database_name < Database/Database.sql
 - Analysis of marks of students.
 - View Feedback rating.
 
-![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-5.png)
+<img width="1278" alt="BK-5" src="https://user-images.githubusercontent.com/42066451/118356492-20338780-b593-11eb-84eb-8be4b2c058c6.png">
 
 ### Administration Page
 
@@ -106,11 +107,12 @@ $ mysql database_name < Database/Database.sql
 - Enroll Teacher.
 - Check fee defaulters.
 
-![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-6.png)
+<img width="1279" alt="BK-6" src="https://user-images.githubusercontent.com/42066451/118356497-288bc280-b593-11eb-8cd4-e1e6a284609b.png">
 
 ### PerformX
 
 - Analysis perfomance of various schools on different parameters using dynamic graphs.
 - Calculate scores based on analysis.
 
-![enter image description here](https://raw.githubusercontent.com/anuneetanand/Images/master/DBMS/BK-7.png)
+<img width="1277" alt="BK-7" src="https://user-images.githubusercontent.com/42066451/118356500-2fb2d080-b593-11eb-849a-4b0af4ee4f67.png">
+
