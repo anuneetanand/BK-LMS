@@ -11,37 +11,37 @@ A database management system and portal designed specifically for government sch
 │   ├── DataPopulation.py
 │   ├── Database.sql
 │   └── Project_Tables.sql
-├── Design
-│   └── Schema.png
-├── src
-│   └── sample
-│       ├── Resources
-│       ├── Admin.fxml
-│       ├── ConnectDB.java
-│       ├── ControllerAdmin.java
-│       ├── ControllerError.java
-│       ├── ControllerGovt.java
-│       ├── ControllerGuardian.java
-│       ├── ControllerHindi.java
-│       ├── ControllerHome.java
-│       ├── ControllerLogin.java
-│       ├── ControllerStudent.java
-│       ├── ControllerTeacher.java
-│       ├── ControllerTeam.java
-│       ├── ControllerX.java
-│       ├── Error.fxml
-│       ├── Govt.fxml
-│       ├── Guardian.fxml
-│       ├── Hindi.fxml
-│       ├── Home.fxml
-│       ├── Login.fxml
-│       ├── Main.java
-│       ├── PerformX.fxml
-│       ├── Student.fxml
-│       ├── Teacher.fxml
-│       └── Team.fxml
 ├── LICENSE
-└── README.md
+├── README.md
+├── Report.pdf
+├── Schema.png
+└── src
+    └── sample
+        ├── Admin.fxml
+        ├── ConnectDB.java
+        ├── ControllerAdmin.java
+        ├── ControllerError.java
+        ├── ControllerGovt.java
+        ├── ControllerGuardian.java
+        ├── ControllerHindi.java
+        ├── ControllerHome.java
+        ├── ControllerLogin.java
+        ├── ControllerStudent.java
+        ├── ControllerTeacher.java
+        ├── ControllerTeam.java
+        ├── ControllerX.java
+        ├── Error.fxml
+        ├── Govt.fxml
+        ├── Guardian.fxml
+        ├── Hindi.fxml
+        ├── Home.fxml
+        ├── Login.fxml
+        ├── Main.java
+        ├── PerformX.fxml
+        ├── Resources
+        ├── Student.fxml
+        ├── Teacher.fxml
+        └── Team.fxml
 ```
 
 ## Build Database :bar_chart:
